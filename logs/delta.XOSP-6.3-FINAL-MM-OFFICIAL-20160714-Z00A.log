@@ -1,0 +1,1619 @@
+============== Team XOSP presents ==============
+========== XOSP for Z00A ==============
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+XOSP_MODVERSION=XOSP-6.3-FINAL-MM-OFFICIAL-20160714-Z00A
+XOSP_RELEASE =RL6
+XOSP_REVISION =3
+TARGET_PRODUCT=xosp_Z00A
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=x86
+TARGET_ARCH_VARIANT=silvermont
+TARGET_CPU_VARIANT=
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+HOST_BUILD_TYPE=release
+BUILD_ID=MOB30R
+OUT_DIR=/home/calin/XOSP/out
+======================================================
+"ebtables is disabled on this build"
+*** Overlay change detected, clean shared intermediate files...
+*** rm -rf /home/calin/XOSP/out/target/common/obj/APPS/SystemUITests_intermediates /home/calin/XOSP/out/target/common/obj/APPS/framework-res_intermediates /home/calin/XOSP/out/target/common/obj/APPS/Snap_intermediates /home/calin/XOSP/out/target/common/obj/APPS/Telecom_intermediates /home/calin/XOSP/out/target/common/obj/APPS/TeleService_intermediates /home/calin/XOSP/out/target/common/obj/APPS/org.cyanogenmod.platform-res_intermediates /home/calin/XOSP/out/target/common/obj/APPS/SettingsProvider_intermediates /home/calin/XOSP/out/target/common/obj/APPS/SystemUI_intermediates /home/calin/XOSP/out/target/common/obj/APPS/Bluetooth_intermediates /home/calin/XOSP/out/target/common/obj/APPS/Dialer_intermediates
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Trusted.ogg:system/media/audio/ui/Trusted.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES hardware/broadcom/wlan/bcmdhd/config/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf ignored.
+No private recovery resources for TARGET_DEVICE Z00A
+Header: /home/calin/XOSP/out/target/product/Z00A/obj/include/libril/ril_ex.h
+[36mExport includes file:[0m device/asus/mofd-common/init/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/libinit_mofd_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/libinit_mofd_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libhealthd/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/libhealthd.moorefield_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/libhealthd.moorefield_intermediates/import_includes
+Target buildinfo: /home/calin/XOSP/out/target/product/Z00A/obj/ETC/system_build_prop_intermediates/build.prop
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/librecovery_updater_mofd_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/recovery/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/librecovery_updater_mofd_intermediates/export_includes
+Target buildinfo from: device/asus/Z00A/system.prop
+[36mExport includes file:[0m device/asus/mofd-common/libril/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libril_intermediates/export_includes
+[36mNotice file:[0m device/asus/mofd-common/libril/NOTICE -- /home/calin/XOSP/out/target/product/Z00A/obj/NOTICE_FILES/src//system/lib/libril.so.txt
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/camera.mofd_v1_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/camera/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/camera.mofd_v1_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/keystore.moorefield_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/keystore/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/keystore.moorefield_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/lights.moorefield_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/liblights/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/lights.moorefield_intermediates/export_includes
+[36mNotice file:[0m device/asus/mofd-common/liblights/NOTICE -- /home/calin/XOSP/out/target/product/Z00A/obj/NOTICE_FILES/src//system/lib/hw/lights.moorefield.so.txt
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/power.mofd_v1_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/power/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/power.mofd_v1_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_audio_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libshims/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_audio_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_camera_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libshims/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_camera_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_gps_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libshims/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_gps_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_mmgr_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libshims/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_mmgr_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_sensors_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libshims/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_sensors_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_tcs_intermediates/import_includes
+[36mExport includes file:[0m device/asus/mofd-common/libshims/Android.mk -- /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_tcs_intermediates/export_includes
+Merge android manifest files: /home/calin/XOSP/out/target/common/obj/APPS/Dialer_intermediates/AndroidManifest.xml <-- packages/apps/Dialer/AndroidManifest.xml packages/apps/Dialer/AndroidManifest_cm.xml  /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ambientsdk_intermediates/aar/AndroidManifest.xml
+logtags: /home/calin/XOSP/out/target/common/obj/APPS/SettingsProvider_intermediates/src/src/com/android/providers/settings/EventLogTags.java <= frameworks/base/packages/SettingsProvider/src/com/android/providers/settings/EventLogTags.logtags
+Merge android manifest files: /home/calin/XOSP/out/target/common/obj/APPS/SystemUI_intermediates/AndroidManifest.xml <-- frameworks/base/packages/SystemUI/AndroidManifest.xml frameworks/base/packages/SystemUI/AndroidManifest_cm.xml
+logtags: /home/calin/XOSP/out/target/common/obj/APPS/SystemUI_intermediates/src/src/com/android/systemui/EventLogTags.java <= frameworks/base/packages/SystemUI/src/com/android/systemui/EventLogTags.logtags
+logtags: /home/calin/XOSP/out/target/common/obj/APPS/TeleService_intermediates/src/src/com/android/phone/EventLogTags.java <= packages/services/Telephony/src/com/android/phone/EventLogTags.logtags
+APK certs list: /home/calin/XOSP/out/target/product/Z00A/obj/PACKAGING/apkcerts_intermediates/xosp_Z00A-apkcerts-bbbef0781b.txt
+[32mBuilding Kernel Config[0m
+make  -C kernel/asus/moorefield O=/home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ ARCH=x86_64 CROSS_COMPILE="/home/calin/XOSP/prebuilts/misc/linux-x86/ccache/ccache x86_64-linux-android-" VARIANT_DEFCONFIG= SELINUX_DEFCONFIG= cyanogenmod_zenfone2_defconfig
+[36mtarget Prebuilt:[0m fstab.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/fstab.mofd_v1_intermediates/fstab.mofd_v1)
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/init_intermediates/import_includes
+[32mtarget  C++:[0m libinit_mofd <= device/asus/mofd-common/init/init_mofd.cpp
+make[1]: Entering directory '/home/calin/XOSP/kernel/asus/moorefield'
+[36mtarget Prebuilt:[0m init.avc.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.avc.rc_intermediates/init.avc.rc)
+[36mtarget Prebuilt:[0m init.bt.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.bt.rc_intermediates/init.bt.rc)
+[36mtarget Prebuilt:[0m init.bt.vendor.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.bt.vendor.rc_intermediates/init.bt.vendor.rc)
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  loading policy configuration from /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy_intermediates/policy.conf
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  policy configuration loaded
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  writing binary representation (version 30) to /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy_intermediates/sepolicy
+[36mtarget Prebuilt:[0m init.common.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.common.rc_intermediates/init.common.rc)
+[36mtarget Prebuilt:[0m init.config_init.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.config_init.rc_intermediates/init.config_init.rc)
+[36mtarget Prebuilt:[0m init.debug.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.debug.rc_intermediates/init.debug.rc)
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  loading policy configuration from /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy_intermediates/policy.conf.dontaudit
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  policy configuration loaded
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  writing binary representation (version 30) to /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy_intermediates//sepolicy.dontaudit
+[36mtarget Prebuilt:[0m init.diag.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.diag.rc_intermediates/init.diag.rc)
+[36mtarget Prebuilt:[0m init.firmware.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.firmware.rc_intermediates/init.firmware.rc)
+[36mtarget Prebuilt:[0m init.gps.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.gps.rc_intermediates/init.gps.rc)
+[36mtarget Prebuilt:[0m init.logtool.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.logtool.rc_intermediates/init.logtool.rc)
+[36mtarget Prebuilt:[0m init.modem.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.modem.rc_intermediates/init.modem.rc)
+[36mtarget Prebuilt:[0m init.mofd_v1.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.mofd_v1.rc_intermediates/init.mofd_v1.rc)
+[36mtarget Prebuilt:[0m init.nfc.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.nfc.rc_intermediates/init.nfc.rc)
+[36mtarget Prebuilt:[0m init.platform.usb.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.platform.usb.rc_intermediates/init.platform.usb.rc)
+[36mtarget Prebuilt:[0m init.power.mofd_v1.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.power.mofd_v1.rc_intermediates/init.power.mofd_v1.rc)
+[36mtarget Prebuilt:[0m init.recovery.mofd_v1.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.recovery.mofd_v1.rc_intermediates/init.recovery.mofd_v1.rc)
+Warning: [packages/apps/Dialer/AndroidManifest.xml:12] Manifest has more than one /manifest/uses-permission[@name=android.permission.MANAGE_USERS] element.
+[36mtarget Prebuilt:[0m init.watchdog.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.watchdog.rc_intermediates/init.watchdog.rc)
+[36mtarget Prebuilt:[0m init.wifi.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.wifi.rc_intermediates/init.wifi.rc)
+[36mtarget Prebuilt:[0m init.wifi.vendor.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.wifi.vendor.rc_intermediates/init.wifi.vendor.rc)
+[36mtarget Prebuilt:[0m init.zram.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.zram.rc_intermediates/init.zram.rc)
+[36mtarget Prebuilt:[0m intel_prop.cfg (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/intel_prop.cfg_intermediates/intel_prop.cfg)
+[36mtarget Prebuilt:[0m system_core_charger_battery_fail.png (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/system_core_charger_battery_fail.png_intermediates/battery_fail.png)
+[36mtarget Prebuilt:[0m system_core_charger_battery_scale.png (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/system_core_charger_battery_scale.png_intermediates/battery_scale.png)
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/healthd_intermediates/import_includes
+/home/calin/XOSP/out/host/linux-x86/bin/checkseapp -p /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy_intermediates/sepolicy -o /home/calin/XOSP/out/target/product/Z00A/obj/ETC/seapp_contexts_intermediates/seapp_contexts /home/calin/XOSP/out/target/product/Z00A/obj/ETC/seapp_contexts_intermediates/seapp_contexts.tmp
+[32mtarget  C++:[0m libhealthd.moorefield <= device/asus/mofd-common/libhealthd/healthd_board_moorefield.cpp
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/sepolicy[0m
+[36mtarget Prebuilt:[0m ueventd.mofd_v1.rc (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/ueventd.mofd_v1.rc_intermediates/ueventd.mofd_v1.rc)
+Target buildinfo: /home/calin/XOSP/out/target/product/Z00A/root/default.prop
+[36mGenerate Toybox links:[0m acpi arp base64 basename blkid blockdev bzcat cal cat chattr chcon chgrp chmod chown chroot cksum clear cmp comm cp cpio cut date dd df diff dirname dmesg dos2unix du echo egrep env expand expr fallocate false fdisk fgrep file find flock free freeramdisk fsfreeze fstype ftpget ftpput getenforce getprop grep groups head help host hostname hwclock id ifconfig inotifyd insmod install ionice iorenice iotop kill killall ln load_policy logname losetup ls lsattr lsmod lsof lspci lsusb makedevs md5sum mkdir mkfifo mknod mkswap mktemp modinfo more mount mountpoint mv nbd-client nc netcat netstat nice nl nohup nproc od partprobe paste patch pgrep pidof pivot_root pkill pmap printenv printf ps pwd pwdx readahead readlink realpath renice reset resize restorecon rev rfkill rm rmdir rmmod route runcon sed seq setenforce setprop setsid sha1sum sleep sort split stat strings swapoff swapon sync sysctl tac tail tar taskset tee telnet test time timeout top touch tr traceroute traceroute6 true truncate tty ulimit umount uname uniq unix2dos uptime usleep vconfig vmstat watch wc which whoami xargs xxd xzcat yes
+[32mtarget  C:[0m librecovery_updater_mofd <= device/asus/mofd-common/recovery/recovery_updater.c
+[32mtarget  C:[0m librecovery_updater_mofd <= device/asus/mofd-common/recovery/fw_version_check.c
+  GEN     /home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ/Makefile
+target Export Resources: framework-res (/home/calin/XOSP/out/target/common/obj/APPS/framework-res_intermediates/package-export.apk)
+[36mtarget Prebuilt:[0m egl.cfg (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/egl.cfg_intermediates/egl.cfg)
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  loading policy configuration from /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy.recovery_intermediates/policy_recovery.conf
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  policy configuration loaded
+/home/calin/XOSP/out/host/linux-x86/bin/checkpolicy:  writing binary representation (version 30) to /home/calin/XOSP/out/target/product/Z00A/obj/ETC/sepolicy.recovery_intermediates/sepolicy.recovery
+[36mtarget Prebuilt:[0m config_init.sh (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/config_init.sh_intermediates/config_init.sh)
+[36mtarget Prebuilt:[0m init.class_main.sh (/home/calin/XOSP/out/target/product/Z00A/obj/ETC/init.class_main.sh_intermediates/init.class_main.sh)
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/rild_intermediates/import_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libril_intermediates/import_includes
+[36mGenerate Toybox links:[0m acpi arp base64 basename blkid blockdev bzcat cal cat chattr chcon chgrp chmod chown chroot cksum clear cmp comm cp cpio cut date dd df diff dirname dmesg dos2unix du echo egrep env expand expr fallocate false fdisk fgrep file find flock free freeramdisk fsfreeze fstype ftpget ftpput getenforce getprop grep groups head help host hostname hwclock id ifconfig inotifyd insmod install ionice iorenice iotop kill killall ln load_policy logname losetup ls lsattr lsmod lsof lspci lsusb makedevs md5sum mkdir mkfifo mknod mkswap mktemp modinfo more mount mountpoint mv nbd-client nc netcat netstat nice nl nohup nproc od partprobe paste patch pgrep pidof pivot_root pkill pmap printenv printf ps pwd pwdx readahead readlink realpath renice reset resize restorecon rev rfkill rm rmdir rmmod route runcon sed seq setenforce setprop setsid sha1sum sleep sort split stat strings swapoff swapon sync sysctl tac tail tar taskset tee telnet test time timeout top touch tr traceroute traceroute6 true truncate tty ulimit umount uname uniq unix2dos uptime usleep vconfig vmstat watch wc which whoami xargs xxd xzcat yes
+[32mtarget  C++:[0m camera.mofd_v1 <= device/asus/mofd-common/camera/CameraWrapper.cpp
+[32mtarget  C++:[0m keystore.moorefield <= device/asus/mofd-common/keystore/KeystoreAdapter.cpp
+[32mtarget  C:[0m lights.moorefield <= device/asus/mofd-common/liblights/lights.c
+[32mtarget  C++:[0m power.mofd_v1 <= device/asus/mofd-common/power/power.cpp
+[36mImport includes file:[0m /home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libreference-ril_intermediates/import_includes
+[32mtarget  C:[0m libshim_audio <= device/asus/mofd-common/libshims/icu53.c
+[32mtarget  C++:[0m libshim_camera <= device/asus/mofd-common/libshims/gui/SensorManager.cpp
+[32mtarget  C++:[0m libshim_camera <= device/asus/mofd-common/libshims/ui/GraphicBufferAllocator.cpp
+[32mtarget  C++:[0m libshim_camera <= device/asus/mofd-common/libshims/ui/GraphicBuffer.cpp
+[32mtarget  C++:[0m libshim_camera <= device/asus/mofd-common/libshims/ui/GraphicBufferMapper.cpp
+[32mtarget  C++:[0m libshim_camera <= device/asus/mofd-common/libshims/surface-control.cpp
+[32mtarget  C++:[0m libshim_gps <= device/asus/mofd-common/libshims/gui/SensorManager.cpp
+[32mtarget  C:[0m libshim_gps <= device/asus/mofd-common/libshims/crypto_malloc.c
+[32mtarget  C:[0m libshim_gps <= device/asus/mofd-common/libshims/icu53.c
+[32mtarget  C:[0m libshim_mmgr <= device/asus/mofd-common/libshims/icu53.c
+[32mtarget  C:[0m libshim_sensors <= device/asus/mofd-common/libshims/icu53.c
+[32mtarget  C:[0m libshim_tcs <= device/asus/mofd-common/libshims/icu53.c
+Aidl: Dialer <= packages/apps/Dialer/src/com/android/services/callrecorder/common/ICallRecorderService.aidl
+Aidl: TeleService <= packages/services/Telephony/src/com/android/phone/INetworkQueryService.aidl
+Aidl: TeleService <= packages/services/Telephony/src/com/android/phone/INetworkQueryServiceCallback.aidl
+Aidl: Telecom <= packages/services/Telecomm/src/org/codeaurora/btmultisim/IBluetoothDsdaService.aidl
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/libnfc-brcm.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/libnfc-brcm-20795a20.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/asound.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/audio_policy.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/route_criteria.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/bluetooth/bt_vendor.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/powervr.ini
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/gps.conf
+[33mCopy xml:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/gps.xml
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keylayout/ASUS_TransKeyboard.kl
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keychars/ftxxxx_ts.kcm
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keylayout/ftxxxx_ts.kl
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keylayout/gpio-keys.kl
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keylayout/lm49453-audio_Intel_MID_Audio_Jack.kl
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keylayout/Vendor_0b05_Product_17fc.kl
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/usr/keylayout/Vendor_0b05_Product_1803.kl
+[33mCopy xml:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/media_codecs.xml
+[33mCopy xml:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/media_profiles.xml
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/mfx_omxil_core.conf
+[33mCopy xml:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/video_isv_profile.xml
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/wrs_omxil_components.list
+[33mCopy xml:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/sensor_hal_config_default.xml
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/wifi/wpa_supplicant_overlay.conf
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/etc/security/sep_policy.conf
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/autoload/spacehi.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/colors/default.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/colors/desert.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/editing.txt[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/help.txt[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/intro.txt[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/motion.txt[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/options.txt[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/scroll.txt[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/tags[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/doc/term.txt[0m
+Install: external/bash/etc/bash_logout -> /home/calin/XOSP/out/target/product/Z00A/system/etc/bash/
+Install: external/bash/etc/bashrc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/bash/
+Install: external/nano/etc/asm.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/awk.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/c.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/cmake.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/css.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/fortran.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/groff.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/html.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/java.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/makefile.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/nanorc.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/objc.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/ocaml.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/patch.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/perl.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/php.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/python.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/ruby.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/sh.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/tcl.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/tex.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+Install: external/nano/etc/xml.nanorc -> /home/calin/XOSP/out/target/product/Z00A/system/etc/nano/
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/filetype.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/ftoff.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/indent.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/indoff.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/plugin/matchparen.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/scripts.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/awk.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/c.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/conf.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/config.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/context.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/cpp.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/css.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/diff.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/doxygen.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/dtd.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/gitcommit.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/help.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/html.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/java.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/javascript.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/logcat.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/lua.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/manual.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/markdown.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/pod.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/sh.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/syncolor.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/synload.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/syntax.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/vb.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/vim.vim[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/usr/share/vim/syntax/xml.vim[0m
+Generating bootstub: /home/calin/XOSP/out/target/product/Z00A/2ndbootloader
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/fstab.mofd_v1[0m
+[32mtarget StaticLib:[0m libinit_mofd (/home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/libinit_mofd_intermediates/libinit_mofd.a)
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/calin/XOSP/kernel/asus/moorefield'
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.avc.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.bt.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.bt.vendor.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.common.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.config_init.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.debug.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.diag.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.firmware.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.gps.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.logtool.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.modem.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.mofd_v1.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.nfc.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.platform.usb.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.power.mofd_v1.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.recovery.mofd_v1.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.watchdog.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.wifi.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.wifi.vendor.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init.zram.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/intel_prop.cfg[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/property_contexts[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/res/images/charger/battery_fail.png[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/res/images/charger/battery_scale.png[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/seapp_contexts[0m
+[32mtarget StaticLib:[0m libhealthd.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/libhealthd.moorefield_intermediates/libhealthd.moorefield.a)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/service_contexts[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/ueventd.mofd_v1.rc[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/egl/egl.cfg[0m
+[32mtarget StaticLib:[0m librecovery_updater_mofd (/home/calin/XOSP/out/target/product/Z00A/obj/STATIC_LIBRARIES/librecovery_updater_mofd_intermediates/librecovery_updater_mofd.a)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/bin/config_init.sh[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/bin/init.class_main.sh[0m
+[32mtarget  C++:[0m libril <= device/asus/mofd-common/libril/ril.cpp
+[32mtarget  C++:[0m libril <= device/asus/mofd-common/libril/ril_event.cpp
+[32mtarget  C++:[0m libril <= device/asus/mofd-common/libril/RilSocket.cpp
+[32mtarget  C++:[0m libril <= device/asus/mofd-common/libril/RilSapSocket.cpp
+[32mtarget  C:[0m toybox <= external/toybox/main.c
+[32mtarget SharedLib:[0m camera.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/camera.mofd_v1_intermediates/LINKED/camera.mofd_v1.so)
+[32mtarget SharedLib:[0m keystore.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/keystore.moorefield_intermediates/LINKED/keystore.moorefield.so)
+[32mtarget SharedLib:[0m lights.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/lights.moorefield_intermediates/LINKED/lights.moorefield.so)
+[32mtarget SharedLib:[0m power.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/power.mofd_v1_intermediates/LINKED/power.mofd_v1.so)
+[32mtarget SharedLib:[0m libshim_audio (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_audio_intermediates/LINKED/libshim_audio.so)
+# In case value of PACKAGES is empty.
+[32mtarget SharedLib:[0m libshim_camera (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_camera_intermediates/LINKED/libshim_camera.so)
+[32mtarget SharedLib:[0m libshim_gps (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_gps_intermediates/LINKED/libshim_gps.so)
+[32mtarget SharedLib:[0m libshim_mmgr (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_mmgr_intermediates/LINKED/libshim_mmgr.so)
+[32mtarget SharedLib:[0m libshim_sensors (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_sensors_intermediates/LINKED/libshim_sensors.so)
+[32mtarget SharedLib:[0m libshim_tcs (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_tcs_intermediates/LINKED/libshim_tcs.so)
+[32mBuilding Kernel Headers[0m
+make[1]: Entering directory '/home/calin/XOSP/kernel/asus/moorefield'
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/file_contexts[0m
+[32mtarget StaticExecutable:[0m init (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/init_intermediates/LINKED/init)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/selinux_version[0m
+[32mtarget StaticExecutable:[0m healthd (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/healthd_intermediates/LINKED/healthd)
+[32mtarget  C++:[0m recovery <= bootable/recovery/adb_install.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/asn1_decoder.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/bootloader.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/device.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/fuse_sdcard_provider.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/install.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/recovery.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/roots.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/screen_ui.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/messagesocket.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/ui.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/verifier.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/wear_ui.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/voldclient.cpp
+[32mtarget  C++:[0m recovery <= bootable/recovery/default_device.cpp
+[32mtarget  C:[0m recovery <= bootable/recovery/../../system/core/toolbox/newfs_msdos.c
+[32mtarget  C:[0m recovery <= bootable/recovery/../../system/core/toolbox/start.c
+[32mtarget  C:[0m recovery <= bootable/recovery/../../system/core/toolbox/stop.c
+[32mtarget  C:[0m recovery <= bootable/recovery/../../system/vold/vdc.c
+[32mtarget SharedLib:[0m libril (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libril_intermediates/LINKED/libril.so)
+[32mtarget Executable:[0m toybox (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/toybox_intermediates/LINKED/toybox)
+target Pack Relocations: camera.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/camera.mofd_v1_intermediates/PACKED/camera.mofd_v1.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Pack Relocations: keystore.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/keystore.moorefield_intermediates/PACKED/keystore.moorefield.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Pack Relocations: lights.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/lights.moorefield_intermediates/PACKED/lights.moorefield.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Pack Relocations: power.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/power.mofd_v1_intermediates/PACKED/power.mofd_v1.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Pack Relocations: libshim_audio (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_audio_intermediates/PACKED/libshim_audio.so)
+target Pack Relocations: libshim_camera (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_camera_intermediates/PACKED/libshim_camera.so)
+target Pack Relocations: libshim_gps (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_gps_intermediates/PACKED/libshim_gps.so)
+target Pack Relocations: libshim_mmgr (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_mmgr_intermediates/PACKED/libshim_mmgr.so)
+target Pack Relocations: libshim_sensors (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_sensors_intermediates/PACKED/libshim_sensors.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+  GEN     /home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ/Makefile
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+Target userdata fs image: /home/calin/XOSP/out/target/product/Z00A/userdata.img
+target Pack Relocations: libshim_tcs (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libshim_tcs_intermediates/PACKED/libshim_tcs.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+Target cache fs image: /home/calin/XOSP/out/target/product/Z00A/cache.img
+target Unpacked: init (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/init_intermediates/PACKED/init)
+target Unpacked: healthd (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/healthd_intermediates/PACKED/healthd)
+[32mtarget StaticExecutable:[0m recovery (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/recovery_intermediates/LINKED/recovery)
+target Pack Relocations: libril (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libril_intermediates/PACKED/libril.so)
+target Unpacked: toybox (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/toybox_intermediates/PACKED/toybox)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+[32mtarget Symbolic:[0m camera.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/hw/camera.mofd_v1.so)
+[32mtarget Symbolic:[0m keystore.moorefield (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/hw/keystore.moorefield.so)
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/calin/XOSP/kernel/asus/moorefield'
+make[1]: Entering directory '/home/calin/XOSP/kernel/asus/moorefield'
+[32mtarget Symbolic:[0m lights.moorefield (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/hw/lights.moorefield.so)
+[32mtarget Symbolic:[0m power.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/hw/power.mofd_v1.so)
+[32mtarget Symbolic:[0m libshim_audio (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libshim_audio.so)
+[32mtarget Symbolic:[0m libshim_camera (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libshim_camera.so)
+[32mtarget Symbolic:[0m libshim_gps (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libshim_gps.so)
+Running: mkuserimg.sh -s /home/calin/XOSP/out/target/product/Z00A/cache /home/calin/XOSP/out/target/product/Z00A/cache.img ext4 cache 268435456 -D /home/calin/XOSP/out/target/product/Z00A/system -L cache /home/calin/XOSP/out/target/product/Z00A/root/file_contexts
+make_ext4fs -s -T -1 -S /home/calin/XOSP/out/target/product/Z00A/root/file_contexts -L cache -l 268435456 -a cache /home/calin/XOSP/out/target/product/Z00A/cache.img /home/calin/XOSP/out/target/product/Z00A/cache /home/calin/XOSP/out/target/product/Z00A/system
+Creating filesystem with parameters:
+    Size: 268435456
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 1024
+    Label: cache
+    Blocks: 65536
+    Block groups: 2
+    Reserved block group size: 15
+Created filesystem with 11/16384 inodes and 2089/65536 blocks
+/home/calin/XOSP/out/target/product/Z00A/cache.img maxsize=274055232 blocksize=2112 total=6398160 reserve=2768832
+[32mtarget Symbolic:[0m libshim_mmgr (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libshim_mmgr.so)
+[32mtarget Symbolic:[0m libshim_sensors (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libshim_sensors.so)
+[32mtarget Symbolic:[0m libshim_tcs (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libshim_tcs.so)
+[32mtarget Symbolic:[0m init (/home/calin/XOSP/out/target/product/Z00A/symbols/init)
+[32mtarget Symbolic:[0m healthd (/home/calin/XOSP/out/target/product/Z00A/symbols/sbin/healthd)
+[32mtarget Symbolic:[0m libril (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libril.so)
+[32mtarget Symbolic:[0m toybox (/home/calin/XOSP/out/target/product/Z00A/symbols/system/bin/toybox)
+[32mtarget Strip:[0m camera.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/lib/camera.mofd_v1.so)
+[32mtarget Strip:[0m keystore.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/lib/keystore.moorefield.so)
+[32mtarget Strip:[0m lights.moorefield (/home/calin/XOSP/out/target/product/Z00A/obj/lib/lights.moorefield.so)
+[32mtarget Strip:[0m power.mofd_v1 (/home/calin/XOSP/out/target/product/Z00A/obj/lib/power.mofd_v1.so)
+[32mtarget Strip:[0m libshim_audio (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libshim_audio.so)
+[32mtarget Strip:[0m libshim_camera (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libshim_camera.so)
+[32mtarget Strip:[0m libshim_gps (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libshim_gps.so)
+[32mtarget Strip:[0m libshim_mmgr (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libshim_mmgr.so)
+[32mtarget Strip:[0m libshim_sensors (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libshim_sensors.so)
+[32mtarget Strip:[0m libshim_tcs (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libshim_tcs.so)
+target Unpacked: recovery (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/recovery_intermediates/PACKED/recovery)
+[32mtarget Strip:[0m init (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/init_intermediates/init)
+[32mtarget Strip:[0m healthd (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/healthd_intermediates/healthd)
+[32mtarget Strip:[0m libril (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libril.so)
+[32mtarget Strip:[0m toybox (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/toybox_intermediates/toybox)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/hw/camera.mofd_v1.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/hw/keystore.moorefield.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/hw/lights.moorefield.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/hw/power.mofd_v1.so[0m
+[32mtarget SharedLib:[0m libreference-ril (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libreference-ril_intermediates/LINKED/libreference-ril.so)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libshim_audio.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libshim_camera.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libshim_gps.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libshim_mmgr.so[0m
+Running: mkuserimg.sh -s /home/calin/XOSP/out/target/product/Z00A/data /home/calin/XOSP/out/target/product/Z00A/userdata.img ext4 data 59261286400 -D /home/calin/XOSP/out/target/product/Z00A/system -L data /home/calin/XOSP/out/target/product/Z00A/root/file_contexts
+make_ext4fs -s -T -1 -S /home/calin/XOSP/out/target/product/Z00A/root/file_contexts -L data -l 59261286400 -a data /home/calin/XOSP/out/target/product/Z00A/userdata.img /home/calin/XOSP/out/target/product/Z00A/data /home/calin/XOSP/out/target/product/Z00A/system
+Creating filesystem with parameters:
+    Size: 59261284352
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 32768
+    Label: data
+    Blocks: 14468087
+    Block groups: 442
+    Reserved block group size: 1024
+Created filesystem with 18/3620864 inodes and 273498/14468087 blocks
+/home/calin/XOSP/out/target/product/Z00A/userdata.img maxsize=60502069056 blocksize=2112 total=145083400 reserve=611132544
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libshim_sensors.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libshim_tcs.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/init[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/root/sbin/healthd[0m
+[32mtarget Symbolic:[0m recovery (/home/calin/XOSP/out/target/product/Z00A/symbols/recovery/root/sbin/recovery)
+nothing matches overlay file default_wallpaper.jpg, for flavor hdpi-v4
+nothing matches overlay file default_wallpaper.jpg, for flavor xhdpi-v4
+nothing matches overlay file default_wallpaper.jpg, for flavor xxhdpi-v4
+[32mtarget Executable:[0m rild (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/rild_intermediates/LINKED/rild)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libril.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/bin/toybox[0m
+target R.java/Manifest.java: framework-res (/home/calin/XOSP/out/target/common/obj/APPS/framework-res_intermediates/src/R.stamp)
+Target ram disk: /home/calin/XOSP/out/target/product/Z00A/ramdisk.img
+target Unpacked: rild (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/rild_intermediates/PACKED/rild)
+target Pack Relocations: libreference-ril (/home/calin/XOSP/out/target/product/Z00A/obj/SHARED_LIBRARIES/libreference-ril_intermediates/PACKED/libreference-ril.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+[32mtarget Symbolic:[0m libreference-ril (/home/calin/XOSP/out/target/product/Z00A/symbols/system/lib/libreference-ril.so)
+[32mtarget Strip:[0m recovery (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/recovery_intermediates/recovery)
+[32mtarget Symbolic:[0m rild (/home/calin/XOSP/out/target/product/Z00A/symbols/system/bin/rild)
+[32mtarget Strip:[0m libreference-ril (/home/calin/XOSP/out/target/product/Z00A/obj/lib/libreference-ril.so)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/recovery/root/sbin/recovery[0m
+[32mtarget Strip:[0m rild (/home/calin/XOSP/out/target/product/Z00A/obj/EXECUTABLES/rild_intermediates/rild)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/lib/libreference-ril.so[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/bin/rild[0m
+  CHK     include/generated/uapi/linux/version.h
+make[3]: Nothing to be done for 'all'.
+make[3]: Nothing to be done for 'relocs'.
+make[1]: Leaving directory '/home/calin/XOSP/kernel/asus/moorefield'
+[32mBuilding Kernel[0m
+make  -C kernel/asus/moorefield O=/home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ ARCH=x86_64 CROSS_COMPILE="/home/calin/XOSP/prebuilts/misc/linux-x86/ccache/ccache x86_64-linux-android-" bzImage
+make[1]: Entering directory '/home/calin/XOSP/kernel/asus/moorefield'
+nothing matches overlay file default_wallpaper.jpg, for flavor hdpi-v4
+nothing matches overlay file default_wallpaper.jpg, for flavor xhdpi-v4
+nothing matches overlay file default_wallpaper.jpg, for flavor xxhdpi-v4
+target Export Resources: org.cyanogenmod.platform-res (/home/calin/XOSP/out/target/common/obj/APPS/org.cyanogenmod.platform-res_intermediates/package-export.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/with-local/classes.dex
+[32mtarget Java:[0m framework (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes)
+[33mtarget R.java/Manifest.java:[0m android-support-v7-cardview-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-res_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m android-support-v7-recyclerview-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview-res_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m uicommon (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/uicommon_intermediates/src/R.stamp)
+
+[33mtarget R.java/Manifest.java:[0m android-support-v7-appcompat (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m libchips (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libchips_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m libphotoviewer_dynamic (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_dynamic_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m libphotoviewer (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_intermediates/src/R.stamp)
+target Package: framework-res (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/framework-res_intermediates/package.apk)
+[33mtarget R.java/Manifest.java:[0m android-support-design-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-res_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m setup-wizard-lib (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/setup-wizard-lib_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m android-support-v7-preference-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-preference-res_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m android-support-v14-preference-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v14-preference-res_intermediates/src/R.stamp)
+Launching background server java -Dfile.encoding=UTF-8 -Xms2560m -XX:+TieredCompilation -jar /home/calin/XOSP/out/host/linux-x86/framework/jack-launcher.jar -cp /home/calin/XOSP/out/host/linux-x86/framework/jack.jar com.android.jack.server.JackSimpleServer
+[33mtarget R.java/Manifest.java:[0m android-support-v17-leanback-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback-res_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m android-support-v17-preference-leanback-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-preference-leanback-res_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m setup-wizard-navbar (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/setup-wizard-navbar_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m SettingsLib (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/SettingsLib_intermediates/src/R.stamp)
+[33mtarget R.java/Manifest.java:[0m Keyguard (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/Keyguard_intermediates/src/R.stamp)
+target R.java/Manifest.java: org.cyanogenmod.platform-res (/home/calin/XOSP/out/target/common/obj/APPS/org.cyanogenmod.platform-res_intermediates/src/R.stamp)
+target R.java/Manifest.java: Bluetooth (/home/calin/XOSP/out/target/common/obj/APPS/Bluetooth_intermediates/src/R.stamp)
+target R.java/Manifest.java: BluetoothMidiService (/home/calin/XOSP/out/target/common/obj/APPS/BluetoothMidiService_intermediates/src/R.stamp)
+target R.java/Manifest.java: Browser (/home/calin/XOSP/out/target/common/obj/APPS/Browser_intermediates/src/R.stamp)
+target R.java/Manifest.java: CaptivePortalLogin (/home/calin/XOSP/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/src/R.stamp)
+target R.java/Manifest.java: CertInstaller (/home/calin/XOSP/out/target/common/obj/APPS/CertInstaller_intermediates/src/R.stamp)
+target R.java/Manifest.java: Development (/home/calin/XOSP/out/target/common/obj/APPS/Development_intermediates/src/R.stamp)
+target R.java/Manifest.java: DocumentsUI (/home/calin/XOSP/out/target/common/obj/APPS/DocumentsUI_intermediates/src/R.stamp)
+target R.java/Manifest.java: DownloadProviderUi (/home/calin/XOSP/out/target/common/obj/APPS/DownloadProviderUi_intermediates/src/R.stamp)
+target R.java/Manifest.java: ExactCalculator (/home/calin/XOSP/out/target/common/obj/APPS/ExactCalculator_intermediates/src/R.stamp)
+target R.java/Manifest.java: Exchange2 (/home/calin/XOSP/out/target/common/obj/APPS/Exchange2_intermediates/src/R.stamp)
+target R.java/Manifest.java: KeyChain (/home/calin/XOSP/out/target/common/obj/APPS/KeyChain_intermediates/src/R.stamp)
+target R.java/Manifest.java: LiveWallpapersPicker (/home/calin/XOSP/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/src/R.stamp)
+target R.java/Manifest.java: LockClock (/home/calin/XOSP/out/target/common/obj/APPS/LockClock_intermediates/src/R.stamp)
+target R.java/Manifest.java: NfcNci (/home/calin/XOSP/out/target/common/obj/APPS/NfcNci_intermediates/src/R.stamp)
+target R.java/Manifest.java: PacProcessor (/home/calin/XOSP/out/target/common/obj/APPS/PacProcessor_intermediates/src/R.stamp)
+target R.java/Manifest.java: PicoTts (/home/calin/XOSP/out/target/common/obj/APPS/PicoTts_intermediates/src/R.stamp)
+target R.java/Manifest.java: PrintSpooler (/home/calin/XOSP/out/target/common/obj/APPS/PrintSpooler_intermediates/src/R.stamp)
+target R.java/Manifest.java: Profiles (/home/calin/XOSP/out/target/common/obj/APPS/Profiles_intermediates/src/R.stamp)
+target R.java/Manifest.java: Snap (/home/calin/XOSP/out/target/common/obj/APPS/Snap_intermediates/src/R.stamp)
+target R.java/Manifest.java: Stk (/home/calin/XOSP/out/target/common/obj/APPS/Stk_intermediates/src/R.stamp)
+target R.java/Manifest.java: UserDictionaryProvider (/home/calin/XOSP/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: WallpaperPicker (/home/calin/XOSP/out/target/common/obj/APPS/WallpaperPicker_intermediates/src/R.stamp)
+target R.java/Manifest.java: XOSPFileManager (/home/calin/XOSP/out/target/common/obj/APPS/XOSPFileManager_intermediates/src/R.stamp)
+target R.java/Manifest.java: messaging (/home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/src/R.stamp)
+target R.java/Manifest.java: telresources (/home/calin/XOSP/out/target/common/obj/APPS/telresources_intermediates/src/R.stamp)
+target Package: org.cyanogenmod.platform-res (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/org.cyanogenmod.platform-res_intermediates/package.apk)
+target R.java/Manifest.java: BackupRestoreConfirmation (/home/calin/XOSP/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/src/R.stamp)
+nothing matches overlay file default_wallpaper.jpg, for flavor xxhdpi-v4
+target R.java/Manifest.java: CMActions (/home/calin/XOSP/out/target/common/obj/APPS/CMActions_intermediates/src/R.stamp)
+target R.java/Manifest.java: CMSettingsProvider (/home/calin/XOSP/out/target/common/obj/APPS/CMSettingsProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: CalendarProvider (/home/calin/XOSP/out/target/common/obj/APPS/CalendarProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: CallLogBackup (/home/calin/XOSP/out/target/common/obj/APPS/CallLogBackup_intermediates/src/R.stamp)
+target R.java/Manifest.java: CarrierConfig (/home/calin/XOSP/out/target/common/obj/APPS/CarrierConfig_intermediates/src/R.stamp)
+target R.java/Manifest.java: CellBroadcastReceiver (/home/calin/XOSP/out/target/common/obj/APPS/CellBroadcastReceiver_intermediates/src/R.stamp)
+target R.java/Manifest.java: Contacts (/home/calin/XOSP/out/target/common/obj/APPS/Contacts_intermediates/src/R.stamp)
+target R.java/Manifest.java: ContactsProvider (/home/calin/XOSP/out/target/common/obj/APPS/ContactsProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: DataUsageProvider (/home/calin/XOSP/out/target/common/obj/APPS/DataUsageProvider_intermediates/src/R.stamp)
+  GEN     /home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ/Makefile
+target R.java/Manifest.java: DefaultContainerService (/home/calin/XOSP/out/target/common/obj/APPS/DefaultContainerService_intermediates/src/R.stamp)
+target R.java/Manifest.java: Dialer (/home/calin/XOSP/out/target/common/obj/APPS/Dialer_intermediates/src/R.stamp)
+target R.java/Manifest.java: DownloadProvider (/home/calin/XOSP/out/target/common/obj/APPS/DownloadProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: ExternalStorageProvider (/home/calin/XOSP/out/target/common/obj/APPS/ExternalStorageProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: FusedLocation (/home/calin/XOSP/out/target/common/obj/APPS/FusedLocation_intermediates/src/R.stamp)
+target R.java/Manifest.java: InputDevices (/home/calin/XOSP/out/target/common/obj/APPS/InputDevices_intermediates/src/R.stamp)
+target R.java/Manifest.java: LiveLockScreenService (/home/calin/XOSP/out/target/common/obj/APPS/LiveLockScreenService_intermediates/src/R.stamp)
+scripts/kconfig/conf --silentoldconfig Kconfig
+target R.java/Manifest.java: ManagedProvisioning (/home/calin/XOSP/out/target/common/obj/APPS/ManagedProvisioning_intermediates/src/R.stamp)
+target R.java/Manifest.java: MediaProvider (/home/calin/XOSP/out/target/common/obj/APPS/MediaProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: MmsService (/home/calin/XOSP/out/target/common/obj/APPS/MmsService_intermediates/src/R.stamp)
+target R.java/Manifest.java: PackageInstaller (/home/calin/XOSP/out/target/common/obj/APPS/PackageInstaller_intermediates/src/R.stamp)
+target R.java/Manifest.java: ProxyHandler (/home/calin/XOSP/out/target/common/obj/APPS/ProxyHandler_intermediates/src/R.stamp)
+target R.java/Manifest.java: Screencast (/home/calin/XOSP/out/target/common/obj/APPS/Screencast_intermediates/src/R.stamp)
+target R.java/Manifest.java: Settings (/home/calin/XOSP/out/target/common/obj/APPS/Settings_intermediates/src/R.stamp)
+target R.java/Manifest.java: SettingsProvider (/home/calin/XOSP/out/target/common/obj/APPS/SettingsProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: Shell (/home/calin/XOSP/out/target/common/obj/APPS/Shell_intermediates/src/R.stamp)
+target R.java/Manifest.java: StatementService (/home/calin/XOSP/out/target/common/obj/APPS/StatementService_intermediates/src/R.stamp)
+target R.java/Manifest.java: SystemUI (/home/calin/XOSP/out/target/common/obj/APPS/SystemUI_intermediates/src/R.stamp)
+target R.java/Manifest.java: Tag (/home/calin/XOSP/out/target/common/obj/APPS/Tag_intermediates/src/R.stamp)
+nothing matches overlay file preference_category_material.xml, for flavor v17
+nothing matches overlay file preference_category_material.xml, for flavor v21
+target R.java/Manifest.java: TeleService (/home/calin/XOSP/out/target/common/obj/APPS/TeleService_intermediates/src/R.stamp)
+target R.java/Manifest.java: Telecom (/home/calin/XOSP/out/target/common/obj/APPS/Telecom_intermediates/src/R.stamp)
+target R.java/Manifest.java: TelephonyProvider (/home/calin/XOSP/out/target/common/obj/APPS/TelephonyProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: ThemeChooser (/home/calin/XOSP/out/target/common/obj/APPS/ThemeChooser_intermediates/src/R.stamp)
+target R.java/Manifest.java: ThemesProvider (/home/calin/XOSP/out/target/common/obj/APPS/ThemesProvider_intermediates/src/R.stamp)
+Deleting @IntDef and @StringDef annotation class files
+target R.java/Manifest.java: VpnDialogs (/home/calin/XOSP/out/target/common/obj/APPS/VpnDialogs_intermediates/src/R.stamp)
+target R.java/Manifest.java: WallpaperCropper (/home/calin/XOSP/out/target/common/obj/APPS/WallpaperCropper_intermediates/src/R.stamp)
+target R.java/Manifest.java: WeatherProvider (/home/calin/XOSP/out/target/common/obj/APPS/WeatherProvider_intermediates/src/R.stamp)
+target R.java/Manifest.java: XOSPSetupWizard (/home/calin/XOSP/out/target/common/obj/APPS/XOSPSetupWizard_intermediates/src/R.stamp)
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/renderscript/ScriptIntrinsicBLAS$Side.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/renderscript/ScriptIntrinsicBLAS$Diag.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/renderscript/ScriptIntrinsicBLAS$Transpose.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/renderscript/ScriptIntrinsicBLAS$Uplo.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/bluetooth/BluetoothAdapter$ScanMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/bluetooth/BluetoothAdapter$AdapterState.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/pm/PackageManager$PermissionResult.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/pm/PackageManager$PermissionFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/pm/ActivityInfo$ScreenOrientation.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Intent$AccessUriMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Context$BindServiceFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Intent$FillInFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Intent$GrantUriMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Context$ServiceName.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Context$CreatePackageOptions.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/text/Layout$BreakStrategy.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/text/Layout$HyphenationFrequency.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/graphics/Canvas$Saveflags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/graphics/pdf/PdfRenderer$RenderMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/Activity$DefaultKeyMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/Notification$Priority.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/ActionBar$NavigationMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/StatusBarManager$Disable2Flags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/ActionBar$DisplayOptions.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/admin/SystemUpdatePolicy$SystemUpdatePolicyType.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/PendingIntent$Flags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/WindowManagerPolicy$UserRotationMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$ResolvedLayoutDir.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FindViewFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FocusableMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/ThreadedRenderer$DumpFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$LayoutDir.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$Visibility.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$ScrollBarStyle.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FocusRealDirection.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/FrameInfo$FrameInfoFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$DrawingCacheQuality.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FocusDirection.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/Surface$Rotation.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$ScrollIndicators.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$TextAlignment.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$EncryptionPaddingEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$KeyAlgorithmEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$OriginEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$DigestEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$BlockModeEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$SignaturePaddingEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/security/keystore/KeyProperties$PurposeEnum.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/trust/TrustAgentService$GrantTrustFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/voice/AlwaysOnHotwordDetector$RecognitionFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/voice/AlwaysOnHotwordDetector$RecognitionModes.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/voice/AlwaysOnHotwordDetector$ManageActions.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/hardware/camera2/CameraDevice$RequestTemplate.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/hardware/camera2/CaptureFailure$FailureReason.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/hardware/camera2/CameraDevice$StateCallback$ErrorCode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/hardware/camera2/CameraAccessException$AccessError.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/hardware/input/InputManager$SwitchState.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/os/MessageQueue$OnFileDescriptorEventListener$Events.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/Toast$Duration.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/GridLayout$AlignmentMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/GridLayout$Orientation.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/GridView$StretchMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/LinearLayout$OrientationMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/NumberPicker$OnScrollListener$ScrollState.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/LinearLayout$DividerMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioTrack$WriteMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaCodec$VideoScalingMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/SyncParams$AudioAdjustMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/SyncParams$SyncSource.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioAttributes$AttributeContentType.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaExtractor$SampleFlag.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$CertificateType.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaExtractor$SeekMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$DrmEvent.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaCodec$BufferFlag.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaMuxer$Format.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaCodec$CodecException$ReasonCode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioFormat$Encoding.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/browse/MediaBrowser$MediaItem$Flags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiofx/Virtualizer$ForceVirtualizationMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiofx/Virtualizer$VirtualizationMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiopolicy/AudioMix$RouteFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiopolicy/AudioPolicy$PolicyStatus.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioRecord$ReadMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$StringProperty.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioAttributes$AttributeUsage.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$KeyStatus$KeyStatusCode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaPlayer$PlaybackRateAudioMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$KeyRequest$RequestType.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaCodec$CryptoException$CryptoErrorCode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$KeyType.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaDrm$ArrayProperty.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/PlaybackParams$AudioStretchMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioTrack$TransferMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaCodec$OutputBufferInfo.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/PlaybackParams$AudioFallbackMode.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/MediaCodec$ConfigureFlag.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/session/MediaSession$SessionFlags.class
+Deleting /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/com/android/internal/widget/LockPatternUtils$StrongAuthTracker$StrongAuthFlags.class
+target R.java/Manifest.java: ituxd (/home/calin/XOSP/out/target/common/obj/APPS/ituxd_intermediates/src/R.stamp)
+target R.java/Manifest.java: Home (/home/calin/XOSP/out/target/common/obj/APPS/Home_intermediates/src/R.stamp)
+target Package: telresources (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/telresources_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/framework-res.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/org.cyanogenmod.platform-res.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/telresources/telresources.apk[0m
+[32mtarget Java:[0m ims-common (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/classes)
+[32mtarget Java:[0m voip-common (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/classes)
+make[3]: Nothing to be done for 'all'.
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/classes.jar
+  GEN     /home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ/Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CC      scripts/mod/devicetable-offsets.s
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/classes-jarjar.jar
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/file2alias.o
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/classes.jar
+[32mtarget Java:[0m telephony-common (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes)
+  HOSTLD  scripts/mod/modpost
+make[3]: Nothing to be done for 'relocs'.
+  Using /home/calin/XOSP/kernel/asus/moorefield as source for kernel
+  CALL    /home/calin/XOSP/kernel/asus/moorefield/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+nothing matches overlay file activities_icon.png, for flavor 
+  PASYMS  arch/x86/realmode/rm/pasyms.h
+  LDS     arch/x86/realmode/rm/realmode.lds
+  LD      arch/x86/realmode/rm/realmode.elf
+  RELOCS  arch/x86/realmode/rm/realmode.relocs
+  OBJCOPY arch/x86/realmode/rm/realmode.bin
+  AS      arch/x86/realmode/rmpiggy.o
+  GZIP    kernel/config_data.gz
+  CHK     kernel/config_data.h
+  UPD     kernel/config_data.h
+  LD      arch/x86/realmode/built-in.o
+  CC      kernel/configs.o
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar
+[33mDocs droiddoc:[0m /home/calin/XOSP/out/target/common/docs/api-stubs
+  VDSOSYM arch/x86/vdso/vdso-syms.lds
+  VDSOSYM arch/x86/vdso/vdsox32-syms.lds
+  VDSOSYM arch/x86/vdso/vdso32-int80-syms.lds
+  VDSOSYM arch/x86/vdso/vdso32-syscall-syms.lds
+  VDSOSYM arch/x86/vdso/vdso32-sysenter-syms.lds
+  LD      kernel/built-in.o
+  VDSOSYM arch/x86/vdso/vdso32-syms.lds
+  LD      arch/x86/vdso/built-in.o
+  LD      arch/x86/built-in.o
+  CC      drivers/char/frandom.o
+  CC      drivers/cpufreq/sfi-cpufreq.o
+  LD      drivers/char/built-in.o
+  LD      drivers/cpufreq/built-in.o
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/hid_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ime_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/input_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/media_cmd_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/monkey_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/pm_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/requestsync_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/sm_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/svc_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telecom_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ksoap2_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/wm_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/with-local/classes.dex
+  LD      drivers/built-in.o
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CalendarProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CallLogBackup_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/DefaultContainerService_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.services.telephony.common_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/DownloadProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ExternalStorageProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/InputDevices_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/MediaProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/OneTimeInitializer_intermediates/with-local/classes.dex
+  LINK    vmlinux
+  LD      vmlinux.o
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ProxyHandler_intermediates/with-local/classes.dex
+DroidDoc took 22 sec. to write docs to /home/calin/XOSP/out/target/common/docs/api-stubs
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Screencast_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/SettingsLib_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/SharedStorageBackup_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/StatementService_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Tag_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/VpnDialogs_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ituxd_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/javax.obex_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bluetooth.mapsapi_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/sap-api-java-static_intermediates/classes.jack
+Compiling SDK Stubs: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.platform.internal_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/BluetoothMidiService_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CertInstaller_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android.test.runner_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/DownloadProviderUi_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/KeyChain_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/with-local/classes.dex
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.platform.sdk_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/NfcNci_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/PacProcessor_intermediates/with-local/classes.dex
+  LD      init/built-in.o
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/PicoTts_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Provision_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libtruezip_intermediates/classes.jack
+  KSYM    .tmp_kallsyms1.o
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/am_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android.test.runner_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/appops_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/appwidget_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bmgr_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bspcapability_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bu_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.future.usb.accessory_intermediates/with-local/classes.dex
+  KSYM    .tmp_kallsyms2.o
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.location.provider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.media.remotedisplay_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.mediadrm.signer_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.cyanogenmod.keyhandler_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/content_intermediates/with-local/classes.dex
+  LD      vmlinux
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/dpm_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.accessibility_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/tzdata_update_intermediates/classes.jack
+[32mtarget Jar:[0m framework (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/javalib.jar)
+  SORTEX  vmlinux
+  SYSMAP  System.map
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/hid_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ime_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/input_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/javax.obex_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/media_cmd_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/monkey_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.hardware_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/pm_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/requestsync_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/settings_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/sm_intermediates/classes.dex
+  VOFFSET arch/x86/boot/voffset.h
+  CC      arch/x86/boot/version.o
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/svc_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telecom_intermediates/classes.dex
+  OBJCOPY arch/x86/boot/compressed/vmlinux.bin
+  GZIP    arch/x86/boot/compressed/vmlinux.bin.gz
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/tm_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/wm_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CMActions_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CMSettingsProvider_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CalendarProvider_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CallLogBackup_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/DefaultContainerService_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/DownloadProvider_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ExternalStorageProvider_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/InputDevices_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/LiveLockScreenService_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/MediaProvider_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/OneTimeInitializer_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ProxyHandler_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Screencast_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/SharedStorageBackup_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/StatementService_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/Keyguard_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Tag_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ThemesProvider_intermediates/with-local/classes.dex
+  MKPIGGY arch/x86/boot/compressed/piggy.S
+  AS      arch/x86/boot/compressed/piggy.o
+  LD      arch/x86/boot/compressed/vmlinux
+  ZOFFSET arch/x86/boot/zoffset.h
+  OBJCOPY arch/x86/boot/vmlinux.bin
+  AS      arch/x86/boot/header.o
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/VpnDialogs_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/WeatherProvider_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ituxd_intermediates/classes.dex
+  LD      arch/x86/boot/setup.elf
+  OBJCOPY arch/x86/boot/setup.bin
+  BUILD   arch/x86/boot/bzImage
+Kernel: arch/x86/boot/bzImage is ready  (#3)
+make[1]: Leaving directory '/home/calin/XOSP/kernel/asus/moorefield'
+java -Xmx3500m -jar /home/calin/XOSP/out/host/linux-x86/framework/jill.jar  --output /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jack.tmpjill.jack /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/BluetoothMidiService_intermediates/classes.dex
+DTBs not enabled
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/classes.dex
+[32mBuilding Kernel Modules[0m
+make[1]: Entering directory '/home/calin/XOSP/kernel/asus/moorefield'
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CertInstaller_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/DownloadProviderUi_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/KeyChain_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/NfcNci_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/PacProcessor_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/PicoTts_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Profiles_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Provision_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/classes.dex
+[32mtarget Java:[0m android-support-annotations (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-annotations_intermediates/classes)
+[32mtarget Java:[0m android-support-v7-recyclerview-res (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview-res_intermediates/classes)
+[32mtarget Java:[0m android-support-v13-mnc (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13-mnc_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/am_intermediates/classes.dex
+[32mtarget Jar:[0m android.test.runner (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android.test.runner_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/appops_intermediates/classes.dex
+make[3]: Nothing to be done for 'all'.
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/appwidget_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bmgr_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bspcapability_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bu_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.future.usb.accessory_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.location.provider_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.media.remotedisplay_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.mediadrm.signer_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.cyanogenmod.keyhandler_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/content_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/dpm_intermediates/classes.dex
+[32mtarget Jar:[0m hid (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/hid_intermediates/javalib.jar)
+[32mtarget Jar:[0m ime (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ime_intermediates/javalib.jar)
+[32mtarget Jar:[0m ims-common (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/javalib.jar)
+[32mtarget Jar:[0m input (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/input_intermediates/javalib.jar)
+[32mtarget Jar:[0m javax.obex (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/javax.obex_intermediates/javalib.jar)
+[32mtarget Jar:[0m media_cmd (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/media_cmd_intermediates/javalib.jar)
+[32mtarget Jar:[0m monkey (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/monkey_intermediates/javalib.jar)
+  GEN     /home/calin/XOSP/out/target/product/Z00A/obj/KERNEL_OBJ/Makefile
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.hardware_intermediates/classes.dex
+[32mtarget Jar:[0m pm (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/pm_intermediates/javalib.jar)
+[32mtarget Jar:[0m requestsync (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/requestsync_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/settings_intermediates/classes.dex
+[32mtarget Jar:[0m sm (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/sm_intermediates/javalib.jar)
+[32mtarget Jar:[0m svc (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/svc_intermediates/javalib.jar)
+[32mtarget Jar:[0m telecom (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telecom_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/tm_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/uiautomator.core_intermediates/classes.jack
+[32mtarget Jar:[0m voip-common (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/javalib.jar)
+[32mtarget Jar:[0m wm (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/wm_intermediates/javalib.jar)
+target Package: BackupRestoreConfirmation (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/BackupRestoreConfirmation_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CMActions_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CMSettingsProvider_intermediates/classes.dex
+target Package: CalendarProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CalendarProvider_intermediates/package.apk)
+  CHK     include/generated/uapi/linux/version.h
+target Package: CallLogBackup (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CallLogBackup_intermediates/package.apk)
+target Package: DefaultContainerService (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/DefaultContainerService_intermediates/package.apk)
+target Package: DownloadProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/DownloadProvider_intermediates/package.apk)
+  CHK     include/generated/utsrelease.h
+  CC      scripts/mod/devicetable-offsets.s
+target Package: ExternalStorageProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ExternalStorageProvider_intermediates/package.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/FusedLocation_intermediates/with-local/classes.dex
+  GEN     scripts/mod/devicetable-offsets.h
+target Package: InputDevices (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/InputDevices_intermediates/package.apk)
+  HOSTCC  scripts/mod/file2alias.o
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/LiveLockScreenService_intermediates/classes.dex
+target Package: MediaProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/MediaProvider_intermediates/package.apk)
+  HOSTLD  scripts/mod/modpost
+target Package: OneTimeInitializer (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/OneTimeInitializer_intermediates/package.apk)
+target Package: ProxyHandler (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ProxyHandler_intermediates/package.apk)
+target Package: Screencast (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Screencast_intermediates/package.apk)
+target Package: SharedStorageBackup (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/SharedStorageBackup_intermediates/package.apk)
+target Package: StatementService (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/StatementService_intermediates/package.apk)
+target Package: Tag (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Tag_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ThemesProvider_intermediates/classes.dex
+target Package: VpnDialogs (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/VpnDialogs_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/WeatherProvider_intermediates/classes.dex
+target Package: ituxd (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ituxd_intermediates/package.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/with-local/classes.dex
+target Package: BluetoothMidiService (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/BluetoothMidiService_intermediates/package.apk)
+target Package: CaptivePortalLogin (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CaptivePortalLogin_intermediates/package.apk)
+target Package: CertInstaller (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CertInstaller_intermediates/package.apk)
+target Package: DownloadProviderUi (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/DownloadProviderUi_intermediates/package.apk)
+target Package: KeyChain (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/KeyChain_intermediates/package.apk)
+target Package: LiveWallpapersPicker (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/LiveWallpapersPicker_intermediates/package.apk)
+target Package: NfcNci (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/NfcNci_intermediates/package.apk)
+target Package: PacProcessor (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/PacProcessor_intermediates/package.apk)
+target Package: PicoTts (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/PicoTts_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Profiles_intermediates/classes.dex
+target Package: Provision (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Provision_intermediates/package.apk)
+target Package: UserDictionaryProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/UserDictionaryProvider_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-annotations_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview-res_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13-mnc_intermediates/classes-jarjar.jar
+[32mtarget Jar:[0m am (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/am_intermediates/javalib.jar)
+[32mtarget Jar:[0m appops (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/appops_intermediates/javalib.jar)
+[32mtarget Jar:[0m appwidget (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/appwidget_intermediates/javalib.jar)
+[32mtarget Jar:[0m bmgr (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bmgr_intermediates/javalib.jar)
+[32mtarget Jar:[0m bspcapability (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bspcapability_intermediates/javalib.jar)
+[32mtarget Jar:[0m bu (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/bu_intermediates/javalib.jar)
+[32mtarget Jar:[0m com.android.future.usb.accessory (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.future.usb.accessory_intermediates/javalib.jar)
+[32mtarget Jar:[0m com.android.location.provider (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.location.provider_intermediates/javalib.jar)
+[32mtarget Jar:[0m com.android.media.remotedisplay (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.media.remotedisplay_intermediates/javalib.jar)
+[32mtarget Jar:[0m com.android.mediadrm.signer (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.mediadrm.signer_intermediates/javalib.jar)
+[32mtarget Jar:[0m com.cyanogenmod.keyhandler (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.cyanogenmod.keyhandler_intermediates/javalib.jar)
+[32mtarget Jar:[0m content (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/content_intermediates/javalib.jar)
+[32mtarget Jar:[0m dpm (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/dpm_intermediates/javalib.jar)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/framework.jar[0m
+[32mtarget Jar:[0m org.cyanogenmod.hardware (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.hardware_intermediates/javalib.jar)
+[32mtarget Jar:[0m settings (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/settings_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.dex
+[32mtarget Jar:[0m tm (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/tm_intermediates/javalib.jar)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/with-local/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk[0m
+target Package: CMActions (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CMActions_intermediates/package.apk)
+target Package: CMSettingsProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CMSettingsProvider_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/CalendarProvider/CalendarProvider.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/CallLogBackup/CallLogBackup.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/DefaultContainerService/DefaultContainerService.apk[0m
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/priv-app/DefaultContainerService/lib/x86  ;ln -sf /system/lib/libdefcontainer_jni.so /home/calin/XOSP/out/target/product/Z00A/system/priv-app/DefaultContainerService/lib/x86/libdefcontainer_jni.so
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/DownloadProvider/DownloadProvider.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/FusedLocation_intermediates/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/InputDevices/InputDevices.apk[0m
+target Package: LiveLockScreenService (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/LiveLockScreenService_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/MediaProvider/MediaProvider.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ProxyHandler/ProxyHandler.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Screencast/Screencast.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/StatementService/StatementService.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Tag/Tag.apk[0m
+target Package: ThemesProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ThemesProvider_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/VpnDialogs/VpnDialogs.apk[0m
+target Package: WeatherProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/WeatherProvider_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ituxd/ituxd.apk[0m
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ituxd/lib/x86  ;ln -sf /system/lib/libthermalJNI.so /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ituxd/lib/x86/libthermalJNI.so
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/BluetoothMidiService/BluetoothMidiService.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/CaptivePortalLogin/CaptivePortalLogin.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/CertInstaller/CertInstaller.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Development_intermediates/with-local/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/DownloadProviderUi/DownloadProviderUi.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/KeyChain/KeyChain.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/NfcNci/NfcNci.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/PacProcessor/PacProcessor.apk[0m
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/app/NfcNci/lib/x86  ;ln -sf /system/lib/libnfc_nci_jni.so /home/calin/XOSP/out/target/product/Z00A/system/app/NfcNci/lib/x86/libnfc_nci_jni.so
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/PicoTts/PicoTts.apk[0m
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/app/PacProcessor/lib/x86  ;ln -sf /system/lib/libjni_pacprocessor.so /home/calin/XOSP/out/target/product/Z00A/system/app/PacProcessor/lib/x86/libjni_pacprocessor.so
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/app/PicoTts/lib/x86  ;ln -sf /system/lib/libttscompat.so /home/calin/XOSP/out/target/product/Z00A/system/app/PicoTts/lib/x86/libttscompat.so  ;ln -sf /system/lib/libttspico.so /home/calin/XOSP/out/target/product/Z00A/system/app/PicoTts/lib/x86/libttspico.so
+target Package: Profiles (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Profiles_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Provision/Provision.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Stk_intermediates/with-local/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/UserDictionaryProvider/UserDictionaryProvider.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/WAPPushManager_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-annotations_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview-res_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13-mnc_intermediates/emma_out/lib/classes-jarjar.jar
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/android.test.runner.jar[0m
+make[3]: Nothing to be done for 'relocs'.
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.core_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/hid.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/ime.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/ims-common.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/input.jar[0m
+  Using /home/calin/XOSP/kernel/asus/moorefield as source for kernel
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/javax.obex.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/media_cmd.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/monkey.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/pm.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/requestsync.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/sm.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/svc.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/telecom.jar[0m
+[32mtarget Jar:[0m telephony-common (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/voip-common.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/wm.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/CMActions/CMActions.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/CMSettingsProvider/CMSettingsProvider.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CarrierConfig_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/CellBroadcastReceiver_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ContactsProvider_intermediates/with-local/classes.dex
+target Package: FusedLocation (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/FusedLocation_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/LiveLockScreenService/LiveLockScreenService.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/MmsService_intermediates/with-local/classes.dex
+  CALL    /home/calin/XOSP/kernel/asus/moorefield/scripts/checksyscalls.sh
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/SettingsProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/TeleService_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Telecom_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/TelephonyProvider_intermediates/with-local/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ThemesProvider/ThemesProvider.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/WeatherProvider/WeatherProvider.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Development_intermediates/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Profiles/Profiles.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Stk_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/WAPPushManager_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-annotations_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview-res_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13-mnc_intermediates/classes.jar
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/am.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/appops.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/appwidget.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/bmgr.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/bspcapability.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/bu.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/com.android.future.usb.accessory.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/com.android.location.provider.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/com.android.media.remotedisplay.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/com.android.mediadrm.signer.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/com.cyanogenmod.keyhandler.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/content.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/dpm.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/org.cyanogenmod.hardware.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/settings.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/tm.jar[0m
+[32mtarget Jar:[0m uiautomator (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CarrierConfig_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/CellBroadcastReceiver_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ContactsProvider_intermediates/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/FusedLocation/FusedLocation.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/MmsService_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/SettingsProvider_intermediates/classes.dex
+target Package: Development (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Development_intermediates/package.apk)
+target Package: Stk (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Stk_intermediates/package.apk)
+target Package: WAPPushManager (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/WAPPushManager_intermediates/package.apk)
+[32mtarget Static Jar:[0m android-support-annotations (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-annotations_intermediates/javalib.jar)
+[32mtarget Static Jar:[0m android-support-v13-mnc (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13-mnc_intermediates/javalib.jar)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/telephony-common.jar[0m
+target Package: CarrierConfig (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CarrierConfig_intermediates/package.apk)
+target Package: CellBroadcastReceiver (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/CellBroadcastReceiver_intermediates/package.apk)
+target Package: ContactsProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ContactsProvider_intermediates/package.apk)
+target Package: MmsService (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/MmsService_intermediates/package.apk)
+target Package: SettingsProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/SettingsProvider_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/TeleService_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Telecom_intermediates/classes.dex
+  Building modules, stage 2.
+  MODPOST 0 modules
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/TelephonyProvider_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Home_intermediates/with-local/classes.dex
+make[1]: Leaving directory '/home/calin/XOSP/kernel/asus/moorefield'
+make[1]: Entering directory '/home/calin/XOSP/kernel/asus/moorefield'
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-annotations_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13-mnc_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-res_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Development/Development.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/LockClock_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview-res_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Stk/Stk.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/WAPPushManager/WAPPushManager.apk[0m
+  DEPMOD  3.10.20+
+make[1]: Leaving directory '/home/calin/XOSP/kernel/asus/moorefield'
+[32mtarget Java:[0m android-support-v4-donut (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-donut_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.appwidget_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.backup_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.devicepolicy_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.midi_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.print_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.restrictions_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.usage_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.usb_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services.voiceinteraction_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/uiautomator.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/CarrierConfig/CarrierConfig.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ContactsProvider/ContactsProvider.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-res_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/setup-wizard-lib_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/MmsService/MmsService.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-preference-res_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v14-preference-res_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback-res_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-preference-leanback-res_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/xz-java_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/setup-wizard-navbar_intermediates/classes.jack
+target Package: TeleService (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/TeleService_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/SettingsProvider/SettingsProvider.apk[0m
+target Package: Telecom (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Telecom_intermediates/package.apk)
+target Package: TelephonyProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/TelephonyProvider_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Home_intermediates/classes.dex
+mdpath=`find /home/calin/XOSP/out/target/product/Z00A/system/lib/modules -type f -name modules.order`; if [ "$mdpath" != "" ];then mpath=`dirname $mdpath`; ko=`find $mpath/kernel -type f -name *.ko`; for i in $ko; do x86_64-linux-android-strip --strip-unneeded $i; mv $i /home/calin/XOSP/out/target/product/Z00A/system/lib/modules/; done; fi
+mdpath=`find /home/calin/XOSP/out/target/product/Z00A/system/lib/modules -type f -name modules.order`; if [ "$mdpath" != "" ];then mpath=`dirname $mdpath`; rm -rf $mpath; fi
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-donut_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-eclair-mr1_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-donut_intermediates/classes-jarjar.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services_intermediates/with-local/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/TeleService/TeleService.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Telecom/Telecom.apk[0m
+target Package: Home (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Home_intermediates/package.apk)
+[36mtarget Prebuilt:[0m  (/home/calin/XOSP/out/target/product/Z00A/kernel)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-donut_intermediates/emma_out/lib/classes-jarjar.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback-kitkat_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback-jbmr2_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback-api23_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback-api21_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/TelephonyProvider/TelephonyProvider.apk[0m
+[33mCopy:[0m /home/calin/XOSP/out/target/product/Z00A/system/app/Home/Home.apk
+Target boot image: /home/calin/XOSP/out/target/product/Z00A/boot.img
+/home/calin/XOSP/out/target/product/Z00A/boot.img maxsize=17128320 blocksize=2112 total=11769856 reserve=173184
+[36mMade boot image: /home/calin/XOSP/out/target/product/Z00A/boot.img[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-jellybean-mr1_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-donut_intermediates/classes.jar
+[36m----- Making recovery ramdisk ------[0m
+[36mCopying baseline ramdisk...[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/classes.jack
+[36mModifying ramdisk contents...[0m
+[32mtarget Static Jar:[0m android-support-v4-donut (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-donut_intermediates/javalib.jar)
+[36m----- Making uncompressed recovery ramdisk ------[0m
+[32mtarget Java:[0m android-support-v4-eclair (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/LockClock_intermediates/classes.dex
+target Package: LockClock (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/LockClock_intermediates/package.apk)
+[36m----- Making compressed recovery ramdisk ------[0m
+[36m----- Making recovery image ------[0m
++/home/calin/XOSP/out/target/product/Z00A/recovery.img maxsize=1712848896 blocksize=2112 total=15466496 reserve=17301504
+[36mMade recovery image: /home/calin/XOSP/out/target/product/Z00A/recovery.img[0m
+Target build info: /home/calin/XOSP/out/target/product/Z00A/system/build.prop
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/classes.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-api21_intermediates/classes.jack
+[32mtarget Static Jar:[0m android-support-v4-eclair (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-eclair-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-froyo_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-eclair-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-froyo (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-froyo_intermediates/classes)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/LockClock/LockClock.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-gingerbread_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-froyo_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-froyo_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-froyo_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-froyo (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-froyo_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-gingerbread (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-gingerbread_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ethernet-service_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.platform_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb_intermediates/classes.jack
+[32mtarget Jar:[0m services (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/services_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-gingerbread_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ethernet-service_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-gingerbread_intermediates/emma_out/lib/classes-jarjar.jar
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/services.jar[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr1_intermediates/classes.jack
+[32mtarget Jar:[0m ethernet-service (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ethernet-service_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-gingerbread_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-gingerbread (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-gingerbread_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-honeycomb (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb_intermediates/classes)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/ethernet-service.jar[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr2_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.platform_intermediates/classes.dex
+[32mtarget Jar:[0m org.cyanogenmod.platform (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.platform_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-honeycomb (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb_intermediates/javalib.jar)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/org.cyanogenmod.platform.jar[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics_intermediates/classes.jack
+[32mtarget Java:[0m android-support-v4-honeycomb-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr1_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr1_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr1_intermediates/emma_out/lib/classes-jarjar.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics-mr1_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr1_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-honeycomb-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr1_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-honeycomb-mr2 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr2_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr2_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr2_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr2_intermediates/classes.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean_intermediates/classes.jack
+[32mtarget Static Jar:[0m android-support-v4-honeycomb-mr2 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-honeycomb-mr2_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-ics (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr1_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-ics (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-ics-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics-mr1_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr2_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics-mr1_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics-mr1_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics-mr1_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-ics-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-ics-mr1_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-jellybean (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-kitkat_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean_intermediates/emma_out/lib/classes-jarjar.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api20_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-jellybean (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-jellybean-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr1_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api21_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr1_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr1_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr1_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-jellybean-mr1 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr1_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-jellybean-mr2 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr2_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr2_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr2_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr2_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-jellybean-mr2 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-jellybean-mr2_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-kitkat (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-kitkat_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api22_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api23_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-kitkat_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-kitkat_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-kitkat_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-kitkat (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-kitkat_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-api20 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api20_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api20_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api20_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api20_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-api20 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api20_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-api21 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api21_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api21_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api21_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api21_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-api21 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api21_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-api22 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api22_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api22_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api22_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api22_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-api22 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api22_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4-api23 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api23_intermediates/classes)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api23_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api23_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api23_intermediates/classes.jar
+[32mtarget Static Jar:[0m android-support-v4-api23 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-api23_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v4 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/DocumentsUI_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ExactCalculator_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/WallpaperPicker_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/wifi-service_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-palette_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ManagedProvisioning_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-leanback_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Settings_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Shell_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/WallpaperCropper_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/XOSPSetupWizard_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Browser_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/DocumentsUI_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ExactCalculator_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/PrintSpooler_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Snap_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/WallpaperPicker_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/uicommon_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/wifi-service_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/DataUsageProvider_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-base_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ManagedProvisioning_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-preference_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-preference-leanback-api21_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Shell_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/SystemUI_intermediates/with-local/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/ThemeChooser_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/WallpaperCropper_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Bluetooth_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Browser_intermediates/classes.dex
+target Package: DocumentsUI (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/DocumentsUI_intermediates/package.apk)
+target Package: ExactCalculator (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ExactCalculator_intermediates/package.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Exchange2_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/PrintSpooler_intermediates/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Snap_intermediates/classes.dex
+target Package: WallpaperPicker (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/WallpaperPicker_intermediates/package.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/XOSPFileManager_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/emma_out/lib/classes-jarjar.jar
+[32mtarget Jar:[0m wifi-service (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/wifi-service_intermediates/javalib.jar)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Contacts_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/DataUsageProvider_intermediates/classes.dex
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-eclair-mr1_intermediates/classes.jack
+target Package: ManagedProvisioning (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ManagedProvisioning_intermediates/package.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v14-preference_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Settings_intermediates/classes.dex
+target Package: Shell (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Shell_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/ThemeChooser_intermediates/classes.dex
+target Package: WallpaperCropper (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/WallpaperCropper_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/XOSPSetupWizard_intermediates/classes.dex
+target Package: Browser (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Browser_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/DocumentsUI/DocumentsUI.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/ExactCalculator/ExactCalculator.apk[0m
+target Package: PrintSpooler (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/PrintSpooler_intermediates/package.apk)
+target Package: Snap (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Snap_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/WallpaperPicker/WallpaperPicker.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes.jar
+target Package: DataUsageProvider (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/DataUsageProvider_intermediates/package.apk)
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-honeycomb_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk[0m
+target Package: Settings (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Settings_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Shell/Shell.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/SystemUI_intermediates/classes.dex
+target Package: ThemeChooser (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/ThemeChooser_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/WallpaperCropper/WallpaperCropper.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Bluetooth_intermediates/classes.dex
+target Package: XOSPSetupWizard (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/XOSPSetupWizard_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Browser/Browser.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/PrintSpooler/PrintSpooler.apk[0m
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/app/PrintSpooler/lib/x86  ;ln -sf /system/lib/libprintspooler_jni.so /home/calin/XOSP/out/target/product/Z00A/system/app/PrintSpooler/lib/x86/libprintspooler_jni.so
+[32mtarget Static Jar:[0m android-support-v4 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/javalib.jar)
+[32mtarget Java:[0m android-support-v7-appcompat (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/classes)
+[32mtarget Java:[0m android-support-v7-palette (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-palette_intermediates/classes)
+[32mtarget Java:[0m android-support-v7-recyclerview (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview_intermediates/classes)
+[32mtarget Java:[0m android-support-v13 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/classes)
+[32mtarget Java:[0m libchips (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libchips_intermediates/classes)
+[32mtarget Java:[0m libphotoviewer_dynamic (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_dynamic_intermediates/classes)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/framework/wifi-service.jar[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/DataUsageProvider/DataUsageProvider.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-honeycomb-mr1_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v17-preference-leanback_intermediates/classes.jack
+target Package: SystemUI (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/SystemUI_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/ThemeChooser/ThemeChooser.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/XOSPSetupWizard/XOSPSetupWizard.apk[0m
+target Package: Bluetooth (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Bluetooth_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Exchange2_intermediates/classes.dex
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Snap/Snap.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-palette_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/classes-jarjar.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-ics_intermediates/classes.jack
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/PackageInstaller_intermediates/with-local/classes.dex
+target Package: Exchange2 (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Exchange2_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-palette_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libchips_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_dynamic_intermediates/classes-jarjar.jar
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design-lollipop_intermediates/classes.jack
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Bluetooth/Bluetooth.apk[0m
+mkdir -p /home/calin/XOSP/out/target/product/Z00A/system/app/Bluetooth/lib/x86  ;ln -sf /system/lib/libbluetooth_jni.so /home/calin/XOSP/out/target/product/Z00A/system/app/Bluetooth/lib/x86/libbluetooth_jni.so
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/Exchange2/Exchange2.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-palette_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libchips_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_dynamic_intermediates/emma_out/lib/classes-jarjar.jar
+[32mtarget Static Jar:[0m android-support-v7-appcompat (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-appcompat_intermediates/javalib.jar)
+[32mtarget Static Jar:[0m android-support-v7-palette (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-palette_intermediates/javalib.jar)
+[32mtarget Static Jar:[0m android-support-v7-recyclerview (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-recyclerview_intermediates/javalib.jar)
+[32mtarget Static Jar:[0m android-support-v13 (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/javalib.jar)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libchips_intermediates/classes.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_dynamic_intermediates/classes.jar
+[32mtarget Static Jar:[0m libchips (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libchips_intermediates/javalib.jar)
+[32mtarget Static Jar:[0m libphotoviewer_dynamic (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_dynamic_intermediates/javalib.jar)
+[32mtarget Java:[0m libphotoviewer (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_intermediates/classes)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/SystemUI/SystemUI.apk[0m
+Building with Jack: /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/android-support-design_intermediates/classes.jack
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_intermediates/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_intermediates/classes.jar
+[32mtarget Static Jar:[0m libphotoviewer (/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/libphotoviewer_intermediates/javalib.jar)
+[32mtarget Java:[0m messaging (/home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/classes)
+nothing matches overlay file activities_icon.png, for flavor 
+Building with Jack: /home/calin/XOSP/out/target/common/obj/APPS/Dialer_intermediates/with-local/classes.dex
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Contacts_intermediates/classes.dex
+target Package: Contacts (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Contacts_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/PackageInstaller_intermediates/classes.dex
+target Package: PackageInstaller (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/PackageInstaller_intermediates/package.apk)
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/XOSPFileManager_intermediates/classes.dex
+target Package: XOSPFileManager (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/XOSPFileManager_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Settings/Settings.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/classes-jarjar.jar
+nothing matches overlay file preference_category_material.xml, for flavor v17
+nothing matches overlay file preference_category_material.xml, for flavor v21
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/emma_out/lib/classes-jarjar.jar
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/classes.jar
+ProGuard, version 5.1
+Reading program jar [/home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/classes.jar]
+Reading library jar [/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/classes.jar]
+Reading library jar [/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/XOSPFileManager/XOSPFileManager.apk[0m
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/PackageInstaller/PackageInstaller.apk[0m
+Reading library jar [/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/classes.jar]
+Reading library jar [/home/calin/XOSP/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar]
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Contacts/Contacts.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/Dialer_intermediates/classes.dex
+target Package: Dialer (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/Dialer_intermediates/package.apk)
+Preparing output jar [/home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/proguard.classes.jar]
+  Copying resources from program jar [/home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/classes.jar]
+[32mtarget Dex:[0m messaging
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/priv-app/Dialer/Dialer.apk[0m
+[32mCopying:[0m /home/calin/XOSP/out/target/common/obj/APPS/messaging_intermediates/classes.dex
+target Package: messaging (/home/calin/XOSP/out/target/product/Z00A/obj/APPS/messaging_intermediates/package.apk)
+[36mInstall: /home/calin/XOSP/out/target/product/Z00A/system/app/messaging/messaging.apk[0m
+build/tools/generate-notice-files.py  /home/calin/XOSP/out/target/product/Z00A/obj/NOTICE.txt  /home/calin/XOSP/out/target/product/Z00A/obj/NOTICE.html "Notices for files contained in the filesystem images in this directory:" /home/calin/XOSP/out/target/product/Z00A/obj/NOTICE_FILES/src
+Combining NOTICE files into HTML
+Combining NOTICE files into text
+Installing recovery patch to system partition
+Warning: could not find SYSTEM/build.prop in <built-in function zip>
+using prebuilt recovery.img from BOOTABLE_IMAGES...
+using prebuilt boot.img from BOOTABLE_IMAGES...
+putting script in bin/install-recovery.sh
+Installed file list: /home/calin/XOSP/out/target/product/Z00A/installed-files.txt
+Target system fs image: /home/calin/XOSP/out/target/product/Z00A/obj/PACKAGING/systemimage_intermediates/system.img
+Running: mkuserimg.sh -s /home/calin/XOSP/out/target/product/Z00A/system /home/calin/XOSP/out/target/product/Z00A/obj/PACKAGING/systemimage_intermediates/system.img ext4 system 2415919104 -D /home/calin/XOSP/out/target/product/Z00A/system -L system /home/calin/XOSP/out/target/product/Z00A/root/file_contexts
+make_ext4fs -s -T -1 -S /home/calin/XOSP/out/target/product/Z00A/root/file_contexts -L system -l 2415919104 -a system /home/calin/XOSP/out/target/product/Z00A/obj/PACKAGING/systemimage_intermediates/system.img /home/calin/XOSP/out/target/product/Z00A/system /home/calin/XOSP/out/target/product/Z00A/system
+Creating filesystem with parameters:
+    Size: 2415919104
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 9216
+    Label: system
+    Blocks: 589824
+    Block groups: 18
+    Reserved block group size: 143
+Created filesystem with 2782/147456 inodes and 239283/589824 blocks
+[36mInstall system fs image: /home/calin/XOSP/out/target/product/Z00A/system.img[0m
+/home/calin/XOSP/out/target/product/Z00A/system.img+ maxsize=2466501312 blocksize=2112 total=941554568 reserve=24915264
+[33mPackage target files:[0m /home/calin/XOSP/out/target/product/Z00A/obj/PACKAGING/target_files_intermediates/xosp_Z00A-target_files-bbbef0781b.zip
+using prebuilt recovery.img from BOOTABLE_IMAGES...
+using prebuilt boot.img from BOOTABLE_IMAGES...
+putting script in bin/install-recovery.sh
+
+
+++++ boot ++++
+
+
+using prebuilt boot.img from BOOTABLE_IMAGES...
+
+
+++++ recovery ++++
+
+
+using prebuilt recovery.img from BOOTABLE_IMAGES...
+
+
+++++ system ++++
+
+
+creating system.img...
+Running: mkuserimg.sh -s /tmp/targetfiles-qqXc3M/system /tmp/system-eReVkQ.img ext4 system 2415919104 -T 1230764400 -C /tmp/targetfiles-qqXc3M/META/filesystem_config.txt -B /tmp/system-blocklist-6sk95_.map -L system /tmp/targetfiles-qqXc3M/BOOT/RAMDISK/file_contexts
+make_ext4fs -s -T 1230764400 -S /tmp/targetfiles-qqXc3M/BOOT/RAMDISK/file_contexts -C /tmp/targetfiles-qqXc3M/META/filesystem_config.txt -B /tmp/system-blocklist-6sk95_.map -L system -l 2415919104 -a system /tmp/system-eReVkQ.img /tmp/targetfiles-qqXc3M/system
+loaded 2772 fs_config entries
+Creating filesystem with parameters:
+    Size: 2415919104
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 9216
+    Label: system
+    Blocks: 589824
+    Block groups: 18
+    Reserved block group size: 143
+Created filesystem with 2782/147456 inodes and 239283/589824 blocks
+
+
+++++ userdata ++++
+
+
+creating userdata.img...
+Running: mkf2fsuserimg.sh /tmp/tmpdGuuy3 59261286400
+in mkf2fsuserimg.sh PATH=/home/calin/XOSP/out/host/linux-x86/bin:/home/calin/XOSP/out/host/linux-x86/bin/:/usr/lib/jvm/java-7-openjdk-amd64/bin:/home/calin/XOSP/out/host/linux-x86/bin:/home/calin/XOSP/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin:/home/calin/XOSP/prebuilts/gcc/linux-x86/:/home/calin/XOSP/development/scripts:/home/calin/XOSP/prebuilts/devtools/tools:/home/calin/XOSP/external/selinux/prebuilts/bin:/home/calin/XOSP/prebuilts/android-emulator/linux-x86_64:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+make_f2fs -l 59261286400 /tmp/tmpdGuuy3
+Info: zone aligned segment0 blkaddr: 512
+Info: Overprovision ratio = 0.840%
+Info: Overprovision segments = 479 (GC reserved = 246)
+
+
+++++ extrauserdata ++++
+
+
+
+
+++++ cache ++++
+
+
+creating cache.img...
+Running: mkf2fsuserimg.sh /tmp/tmpCYbIma 268435456
+in mkf2fsuserimg.sh PATH=/home/calin/XOSP/out/host/linux-x86/bin:/home/calin/XOSP/out/host/linux-x86/bin/:/usr/lib/jvm/java-7-openjdk-amd64/bin:/home/calin/XOSP/out/host/linux-x86/bin:/home/calin/XOSP/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin:/home/calin/XOSP/prebuilts/gcc/linux-x86/:/home/calin/XOSP/development/scripts:/home/calin/XOSP/prebuilts/devtools/tools:/home/calin/XOSP/external/selinux/prebuilts/bin:/home/calin/XOSP/prebuilts/android-emulator/linux-x86_64:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+make_f2fs -l 268435456 /tmp/tmpCYbIma
+Info: zone aligned segment0 blkaddr: 512
+Info: Overprovision ratio = 15.000%
+Info: Overprovision segments = 35 (GC reserved = 21)
+done.
+[33mPackage OTA:[0m /home/calin/XOSP/out/target/product/Z00A/xosp_Z00A-ota-bbbef0781b.zip
+unzipping target target-files...
+  running:  unzip -o -q /home/calin/XOSP/out/target/product/Z00A/obj/PACKAGING/target_files_intermediates/xosp_Z00A-target_files-bbbef0781b.zip -d /tmp/targetfiles-qO3HJS
+--- target info ---
+blockimgdiff_versions     = (str) 1,2,3
+blocksize                 = (int) 2048
+boot_size                 = (int) 16777216
+build.prop                = (dict) {'ro.setupwizard.enterprise_mode': '1', 'ro.product.cpu.abilist': 'x86,armeabi-v7a,armeabi', 'ro.url.legal': 'http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html', 'ro.build.product': 'Z00A', 'ro.build.id': 'MOB30R', 'ro.hwui.gradient_cache_size': '1', 'ro.build.version.sdk': '23', 'ro.product.cpu.abilist32': 'x86,armeabi-v7a,armeabi', 'dalvik.vm.heapmaxfree': '8m', 'dalvik.vm.implicit_checks': 'none', 'persist.service.debuggable': '1', 'ro.build.fingerprint': 'asus/WW_Z00A/Z00A:5.0/LRX21V/2.20.40.165_20160118_6541_user:user/release-keys', 'ro.product.manufacturer': 'asus', 'service.adb.root': '1', 'ro.hwui.layer_cache_size': '48', 'ro.build.description': 'asusmofd_fhd-user 5.0 LRX21V 2.20.40.165_20160118_6541_user release-keys', 'dalvik.vm.heapstartsize': '16m', 'ro.product.brand': 'asus', 'ro.cm.build.version.plat.sdk': '6', 'ro.product.model': 'ASUS_Z00A', 'ro.xosp.device': 'Z00A', 'ro.cmlegal.url': 'https://cyngn.com/legal/privacy-policy', 'dalvik.vm.heapsize': '512m', 'dalvik.vm.heaptargetutilization': '0.75', 'ro.build.host': 'XOSP-Server', 'ro.com.android.dataroaming': 'false', 'ro.build.version.security_patch': '2016-07-05', 'ro.xosp.revision': 'Revision3', 'ro.com.widevine.cachesize': '16777216', 'ro.product.locale': 'en-US', 'dalvik.vm.heapminfree': '2m', 'ro.board.platform': 'moorefield', 'ro.ril.status.polling.enable': '0', 'ro.product.cpu.abilist64': '', 'ro.expect.recovery_id': '0xc8a1466dc974b0c16dfc8f6a2248765b7d0910c2000000000000000000000000', 'drm.service.enabled': 'true', 'ro.build.flavor': 'xosp_Z00A-userdebug', 'ro.secure': '0', 'ro.build.version.release': '6.0.1', 'ro.build.version.codename': 'REL', 'net.bt.name': 'Android', 'ro.enable.native.bridge.exec': '1', 'ro.build.type': 'userdebug', 'ro.hwui.text_large_cache_width': '2048', 'ro.config.alarm_alert': 'xperia.ogg', 'ro.ril.telephony.mqanelements': '5', 'ro.hwui.text_small_cache_height': '1024', 'ro.build.display.id': 'xosp_Z00A-userdebug 6.0.1 MOB30R bbbef0781b test-keys', 'persist.service.adb.enable': '1', 'ro.xosp.release': 'RL6', 'ro.config.ringtone': 'xperia.ogg', 'ro.dalvik.vm.isa.arm': 'x86', 'dalvik.vm.stack-trace-file': '/data/anr/traces.txt', 'ro.carrier': 'unknown', 'ro.product.board': 'moorefield', 'ro.build.version.preview_sdk': '0', 'ro.com.google.clientidbase': 'android-google', 'dalvik.vm.dex2oat-swap': 'false', 'ro.cm.build.version.plat.rev': '0', 'ro.mod.version': 'XOSP-6.3-FINAL-MM-OFFICIAL-20160714-Z00A', 'ro.build.date': 'Thu Jul 14 16:50:19 CEST 2016', 'ro.build.date.utc': '1468507819', 'keyguard.no_require_sim': 'true', 'dalvik.vm.isa.x86.variant': 'silvermont', 'ro.build.version.all_codenames': 'REL', 'dalvik.vm.lockprof.threshold': '500', 'ro.adb.secure': '0', 'ro.xosp.display.version': 'XOSP-6.3-FINAL-MM-OFFICIAL-20160714-Z00A', 'ro.build.selinux': '1', 'persist.sys.root_access': '1', 'ro.hwui.text_small_cache_width': '1024', 'ro.product.cpu.abi': 'x86', 'bt.hfp.WideBandSpeechEnabled': 'true', 'ro.url.legal.android_privacy': 'http://www.google.com/intl/%s/mobile/android/basic/privacy.html', 'ro.product.name': 'WW_Z00A', 'ro.hwui.drop_shadow_cache_size': '6', 'ro.debuggable': '1', 'ro.build.version.base_os': '', 'rild.libpath': '/system/lib/librapid-ril-core.so', 'media.sf.omx-plugin': 'libffmpeg_omx.so', 'dalvik.vm.isa.x86.features': 'default', 'ro.wifi.channels': '', 'ro.hwui.r_buffer_cache_size': '8', 'ro.modversion': 'XOSP-6.3-FINAL-MM-OFFICIAL-20160714-Z00A', 'ro.build.characteristics': 'default', 'ro.telephony.default_network': '9', 'ro.build.version.incremental': 'bbbef0781b', 'ro.hwui.text_large_cache_height': '1024', 'media.sf.extractor-plugin': 'libffmpeg_extractor.so', 'ro.sf.lcd_density': '480', 'ro.com.android.dateformat': 'MM-dd-yyyy', 'ro.spid.gps.tty': 'ttyMFD2', 'ro.product.cpu.abi2': 'armeabi-v7a', 'ro.xosp.releasetype': 'OFFICIAL', 'ro.build.user': 'jenkins', 'media.stagefright.cache-params': '10240/20480/15', 'ro.hwui.path_cache_size': '32', 'ro.product.device': 'Z00A', 'ro.hwui.texture_cache_flushrate': '0.4', 'ro.hwui.texture_cache_size': '72', 'persist.sys.dalvik.vm.lib.2': 'libart.so', 'ro.com.android.wifi-watchlist': 'GoogleGuest', 'dalvik.vm.heapgrowthlimit': '192m', 'persist.sys.dun.override': '0', 'ro.config.notification_sound': 'Tejat.ogg', 'ro.build.tags': 'test-keys', 'media.aac_51_output_enabled': 'true'}
+cache_fs_type             = (str) ext4
+cache_size                = (int) 268435456
+default_system_dev_certificate = (str) build/target/product/security/testkey
+device_type               = (str) MMC
+extfs_sparse_flag         = (str) -s
+extra_recovery_keys       = (str)  build/target/product/security/cm build/target/product/security/cm-devkey
+fs_type                   = (str) ext4
+fstab                     = (dict) {'none': <common.Partition object at 0x7fb47b041750>, '/cache': <common.Partition object at 0x7fb47b041390>, '/boot': <common.Partition object at 0x7fb47b041690>, '/system': <common.Partition object at 0x7fb47b041310>, '/config': <common.Partition object at 0x7fb47b0413d0>, '/recovery': <common.Partition object at 0x7fb47b041710>, '/data': <common.Partition object at 0x7fb47b041490>, '/factory': <common.Partition object at 0x7fb47b0414d0>}
+fstab_version             = (int) 2
+mkbootimg_args            = (str) 
+multistage_support        = (str) 1
+recovery_api_version      = (int) 3
+recovery_mount_options    = (str) ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc
+recovery_size             = (int) 1677721600
+selinux_fc                = (str) /tmp/targetfiles-qO3HJS/BOOT/RAMDISK/file_contexts
+system_size               = (int) 2415919104
+tool_extensions           = (str) device/asus/Z00A
+update_rename_support     = (str) 1
+use_set_metadata          = (str) 1
+userdata_size             = (int) 59261286400
+unable to load device-specific module; assuming none
+using prebuilt recovery.img from BOOTABLE_IMAGES...
+using system.img from target-files
+Total of 589824 4096-byte output blocks in 2633 input chunks.
+Generating digraph...
+Finding vertex sequence...
+Reversing backward edges...
+  0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+Improving vertex order...
+Revising stash size...
+  Total 0 blocks are packed as new blocks due to insufficient cache size.
+Reticulating splines...
+max stashed blocks: 0  (0 bytes), limit: 214748364 bytes (0.00%)
+
+using prebuilt boot.img from BOOTABLE_IMAGES...
+   boot size (11769856) is 70.15% of limit (16777216)
+  running:  openssl pkcs8 -in build/target/product/security/testkey.pk8 -inform DER -nocrypt
+  running:  java -Xmx2048m -jar /home/calin/XOSP/out/host/linux-x86/framework/signapk.jar -w build/target/product/security/testkey.x509.pem build/target/product/security/testkey.pk8 /tmp/tmp2EUZdj /home/calin/XOSP/out/target/product/Z00A/xosp_Z00A-ota-bbbef0781b.zip
+done.
+[32m================-XOSP was successfully compiled================[0m
+[32mROM Zip: [36m /home/calin/XOSP/out/target/product/Z00A/XOSP-6.3-FINAL-MM-OFFICIAL-20160714-Z00A.zip [0m
+[32mMD5: [36m 67facda6bd649b7d538f2273f65169e5[0m
+[32mSize:[36m 446M[0m
+[32m===============================================================[0m
+
+#### make completed successfully (22:18 (mm:ss)) ####
+
