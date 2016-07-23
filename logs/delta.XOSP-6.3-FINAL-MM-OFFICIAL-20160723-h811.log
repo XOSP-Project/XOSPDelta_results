@@ -1,0 +1,269 @@
+============== Team XOSP presents ==============
+========== XOSP for h811 ==============
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+XOSP_MODVERSION=XOSP-6.3-FINAL-MM-OFFICIAL-20160723-h811
+XOSP_RELEASE =RL6
+XOSP_REVISION =3
+TARGET_PRODUCT=xosp_h811
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a53.a57
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+HOST_BUILD_TYPE=release
+BUILD_ID=MOB30R
+OUT_DIR=/home/calin/XOSP/out
+======================================================
+Checking build tools versions...
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Trusted.ogg:system/media/audio/ui/Trusted.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES vendor/xosp/prebuilt/common/media/audio/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+No private recovery resources for TARGET_DEVICE h811
+[36mExport includes file:[0m external/libcxx/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
+[36mExport includes file:[0m system/core/libmincrypt/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libmincrypt_intermediates/export_includes
+[36mExport includes file:[0m external/compiler-rt/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/libexpat/expat.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/libexpat/expat_external.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libexpat/expat.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libexpat/expat_external.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/bits.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/config.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/debug.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/linkhash.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/arraylist.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_config.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_inttypes.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_util.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_object.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_tokener.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_object_iterator.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libjson/inc/json_c_version.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/xf86drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/xf86drmMode.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/drm_fourcc.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/drm_mode.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/drm_sarea.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/i915_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/mach64_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/mga_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/nouveau_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/qxl_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/r128_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/savage_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/sis_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/tegra_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/via_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/vmwgfx_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/nouveau.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_bo.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_cs.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_surface.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_bo_gem.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_cs_gem.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_bo_int.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/radeon_cs_int.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/r600_pci_ids.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/rockchip_drm.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/rockchip_drmif.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/tegra.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libdrm/libkms.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/selinux/selinux.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/selinux/label.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/selinux/context.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/selinux/avc.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/selinux/android.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/selinux/selinux.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/selinux/label.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/selinux/context.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/selinux/avc.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/selinux/android.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/parameter/ParameterMgrLoggerForward.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/parameter/ParameterMgrPlatformConnector.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/parameter/ParameterMgrFullConnector.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/parameter/SelectionCriterionTypeInterface.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/parameter/SelectionCriterionInterface.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/parameter/ParameterHandle.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/parameter/ParameterMgrLoggerForward.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/parameter/ParameterMgrPlatformConnector.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/parameter/ParameterMgrFullConnector.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/parameter/SelectionCriterionTypeInterface.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/parameter/SelectionCriterionInterface.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/parameter/ParameterHandle.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c-private.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/sepol/handle.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/sepol/policydb.h
+Header: /home/calin/XOSP/out/host/linux-x86/obj/include/sepol/cil.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libsonivox/eas.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libsonivox/eas_types.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libsonivox/eas_reverb.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libsonivox/jet.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libwpa_client/wpa_ctrl.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libwpa_client/qca-vendor.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/media_resource_manager/MediaResourceArbitrator.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/media_resource_manager/OMX_adaptor.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-audio/audio_defs.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/gralloc_priv.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/gr.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/alloc_controller.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/memalloc.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/copybit.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/copybit_priv.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/c2d2.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/IQService.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/IQClient.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/display_config.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/mdp_version.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/qcom/display/qdMetaData.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//MsgTask.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//LocApiBase.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//LocAdapterBase.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//ContextBase.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//LocDualContext.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//LBSProxyBase.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//UlpProxyBase.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//gps_extended_c.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//gps_extended.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//loc_core_log.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_core//LocAdapterProxyBase.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//loc_log.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//loc_cfg.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//log_util.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//linked_list.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//msg_q.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//loc_target.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//loc_timer.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//platform_lib_includes.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//platform_lib_time.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//platform_lib_macros.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/gps.utils//loc_misc_utils.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//LocEngAdapter.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc_eng.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc_eng_xtra.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc_eng_ni.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc_eng_agps.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc_eng_msg.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libloc_eng//loc_eng_log.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Audio.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Component.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Core.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Image.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Index.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_IVCommon.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Other.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Types.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_Video.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/qc_omx_common.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/qc_omx_component.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/qc_omx_msg.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_CoreExt.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_IndexExt.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/OMX_VideoExt.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QCMediaDefs.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-core/omxcore/QCMetaData.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/mm-video/DivxDrmDecrypt/DivXDrmDecrypt.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/libril/ril_ex.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/sdk/softap/include/qsap_api.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/sdk/softap/include/qsap.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/dataservices/rmnetctl/librmnetctl.h
+Header: /home/calin/XOSP/out/target/product/h811/obj/include/time-services/time_genoff.h
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/import_includes
+[36mExport includes file:[0m external/libcxxabi/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes
+[36mExport includes file:[0m external/libcxx/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/import_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libmincrypt_intermediates/import_includes
+[36mExport includes file:[0m system/core/mkbootimg/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/mkbootimg_intermediates/export_includes
+[36mExport includes file:[0m build/libs/host/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/import_includes
+[36mExport includes file:[0m build/tools/acp/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/acp_intermediates/export_includes
+[36mNotice file:[0m external/compiler-rt/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libcompiler_rt-extras.a.txt
+[36mNotice file:[0m external/compiler-rt/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libcompiler_rt-extras.a.txt
+[36mNotice file:[0m system/core/libmincrypt/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libmincrypt.a.txt
+[36mNotice file:[0m system/core/libmincrypt/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libmincrypt.a.txt
+[36mExport includes file:[0m system/core/libcutils/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes
+[36mExport includes file:[0m system/core/liblog/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/import_includes
+[36mExport includes file:[0m system/core/liblog/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+[36mExport includes file:[0m system/core/cpio/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/mkbootfs_intermediates/export_includes
+[36mNotice file:[0m system/core/libcutils/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libcutils.so.txt
+[36mNotice file:[0m system/core/liblog/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/liblog.so.txt
+[36mNotice file:[0m system/core/liblog/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/liblog.a.txt
+[36mNotice file:[0m system/core/liblog/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib/liblog.a.txt
+Yacc: checkpolicy <= external/selinux/checkpolicy/policy_parse.y
+[36mExport includes file:[0m external/selinux/libsepol/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libsepol_intermediates/export_includes
+prebuilts/misc/linux-x86/bison/bison -d -v -o /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.cpp external/selinux/checkpolicy/policy_parse.y
+Lex: checkpolicy <= external/selinux/checkpolicy/policy_scan.l
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libsepol_intermediates/import_includes
+[36mExport includes file:[0m external/selinux/checkpolicy/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/export_includes
+Lex: libsepol <= external/selinux/libsepol/cil/src/cil_lexer.l
+[36mExport includes file:[0m external/libselinux/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+[36mExport includes file:[0m external/pcre/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes
+[36mImport includes file:[0m /home/calin/XOSP/out/host/linux-x86/obj/STATIC_LIBRARIES/libpcre_intermediates/import_includes
+[36mExport includes file:[0m external/sepolicy/tools/Android.mk -- /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkfc_intermediates/export_includes
+touch /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.hpp
+[36mNotice file:[0m external/libselinux/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libselinux.a.txt
+echo '#ifndef 'policy_parse_h > /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.h
+echo '#define 'policy_parse_h >> /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.h
+[36mNotice file:[0m external/libselinux/NOTICE -- /home/calin/XOSP/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libselinux.a.txt
+cat /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.hpp >> /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.h
+[36mNotice file:[0m external/sepolicy/NOTICE -- /home/calin/XOSP/out/target/product/h811/obj/NOTICE_FILES/src//root/file_contexts.txt
+echo '#endif' >> /home/calin/XOSP/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.h
+[36mExport includes file:[0m external/libcxx/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
+[36mExport includes file:[0m bionic/libc/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/SHARED_LIBRARIES/libc_intermediates/export_includes
+[36mExport includes file:[0m bionic/libm/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/SHARED_LIBRARIES/libm_intermediates/export_includes
+[36mExport includes file:[0m system/core/init/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libinit_intermediates/export_includes
+[36mExport includes file:[0m system/core/fs_mgr/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes
+[36mExport includes file:[0m system/extras/squashfs_utils/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/export_includes
+[36mExport includes file:[0m system/core/logwrapper/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes
+[36mExport includes file:[0m system/core/libcutils/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes
+[36mExport includes file:[0m system/core/base/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libbase_intermediates/export_includes
+[36mExport includes file:[0m system/core/libutils/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes
+[36mExport includes file:[0m system/core/liblog/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+[36mExport includes file:[0m bionic/libc/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libc_intermediates/export_includes
+[36mExport includes file:[0m external/libselinux/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+[36mExport includes file:[0m system/core/libmincrypt/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libmincrypt_intermediates/export_includes
+[36mExport includes file:[0m system/extras/ext4_utils/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes
+[36mExport includes file:[0m external/e2fsprogs/lib/blkid/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes
+[36mExport includes file:[0m external/e2fsprogs/lib/uuid/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes
+[36mExport includes file:[0m external/libcxx/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes
+[36mExport includes file:[0m bionic/libdl/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libdl_intermediates/export_includes
+[36mExport includes file:[0m system/core/libsparse/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes
+[36mExport includes file:[0m external/zlib/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libz_intermediates/export_includes
+[36mExport includes file:[0m external/compiler-rt/Android.mk -- /home/calin/XOSP/out/target/product/h811/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+
+#### make failed to build some targets (02:36 (mm:ss)) ####
+
